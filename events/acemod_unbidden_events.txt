@@ -1,0 +1,535 @@
+namespace = acemod_unbidden
+# Marks each individual Unbidden military fleet
+fleet_event = {
+	id = acemod_unbidden.100
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_global_flag = extradimensional_invasion_happened
+		NOT = {
+			has_global_flag = extradimensional_invasion_defeated
+		}
+		owner = {
+			has_country_flag = unbidden
+		}
+		NOT = {
+			has_fleet_flag = acemod_unbidden_fleet_marked
+		}
+		exists = leader
+		leader = {
+			leader_class = admiral
+		}
+	}
+	immediate = {
+		if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_1_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_1_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_1_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_1_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_2_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_2_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_2_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_2_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_3_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_3_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_3_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_3_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_4_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_4_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_4_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_4_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_5_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_5_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_5_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_5_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_6_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_6_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_6_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_6_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_7_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_7_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_7_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_7_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_8_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_8_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_8_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_8_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_9_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_9_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_9_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_9_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_10_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_10_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_10_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_10_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_11_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_11_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_11_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_11_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_12_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_12_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_12_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_12_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_13_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_13_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_13_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_13_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_14_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_14_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_14_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_14_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_15_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_15_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_15_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_15_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_16_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_16_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_16_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_16_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_17_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_17_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_17_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_17_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_18_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_18_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_18_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_18_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_19_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_19_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_19_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_19_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_20_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_20_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_20_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_20_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_21_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_21_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_21_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_21_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_22_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_22_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_22_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_22_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_23_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_23_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_23_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_23_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_24_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_24_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_24_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_24_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_25_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_25_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_25_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_25_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_26_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_26_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_26_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_26_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_27_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_27_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_27_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_27_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_28_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_28_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_28_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_28_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_29_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_29_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_29_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_29_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_30_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_30_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_30_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_30_global_target
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = acemod_unbidden_fleet_30_global_flag
+				}
+			}
+			set_fleet_flag = acemod_unbidden_fleet_marked
+			set_fleet_flag = acemod_unbidden_fleet_30_fleet_flag
+			set_global_flag = acemod_unbidden_fleet_30_global_flag
+			save_global_event_target_as = acemod_unbidden_fleet_30_global_target
+		}
+		else = {
+			break = yes
+		}
+	}
+}
+
+# Marks capitals as targets
+event = {
+	id = acemod_unbidden.300
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_global_flag = extradimensional_invasion_happened
+		NOT = {
+			has_global_flag = extradimensional_invasion_defeated
+		}
+	}
+	immediate = {
+		every_country = {
+			limit = {
+				exists = capital_scope
+			}
+			capital_scope = {
+				solar_system = {
+					every_system_planet = {
+						if = {
+							limit = {
+								is_capital = yes
+								NOT = {
+									has_planet_flag = acemod_unbidden_fleet_target
+								}
+							}
+							set_planet_flag = acemod_unbidden_fleet_target
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+# Remove marks from non-capitals. Fixer event
+event = {
+	id = acemod_unbidden.301
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_global_flag = extradimensional_invasion_happened
+		NOT = {
+			has_global_flag = extradimensional_invasion_defeated
+		}
+	}
+	immediate = {
+		every_country = {
+			limit = {
+				exists = capital_scope
+			}
+			capital_scope = {
+				solar_system = {
+					every_system_planet = {
+						if = {
+							limit = {
+								is_capital = no
+								has_planet_flag = acemod_unbidden_fleet_target
+							}
+							remove_planet_flag = acemod_unbidden_fleet_target
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+# Move Unbidden fleets to capitals. Currently will only send fleets from extradimensional_origin_system (debug)
+country_event = {
+	id = acemod_unbidden.400
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		random_system = {
+			limit = {
+				any_fleet_in_system = {
+					has_fleet_flag = acemod_unbidden_fleet_marked
+					NOT = {
+						has_fleet_flag = acemod_unbidden_fleet_attacking
+					}
+				}
+			}
+			random_system = {
+				limit = {
+					has_star_flag = extradimensional_origin_system
+				}
+				every_fleet_in_system = {
+					limit = {
+						has_fleet_flag = acemod_unbidden_fleet_marked
+						NOT = {
+							has_fleet_flag = acemod_unbidden_fleet_attacking
+						}
+					}
+					fleet_event = {
+						id = acemod_unbidden.440
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}
+
+fleet_event = {
+	id = acemod_unbidden.440
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		queue_actions = {
+			effect = {
+				id = acemod_unbidden_440_a
+				root = {
+					clear_fleet_actions = this
+				}
+			}
+		}
+		clear_fleet_actions = this
+		solar_system = {
+			closest_system = {
+				limit = {
+					any_system_planet = {
+						has_planet_flag = acemod_unbidden_fleet_target
+						NOT = {
+							has_planet_flag = acemod_unbidden_fleet_target_fleet_sent
+						}
+					}
+				}
+				random_system_planet = {
+					limit = {
+						has_planet_flag = acemod_unbidden_fleet_target
+						NOT = {
+							has_planet_flag = acemod_unbidden_fleet_target_fleet_sent
+						}
+					}
+					save_event_target_as = killtarget
+					set_planet_flag = acemod_unbidden_fleet_target_fleet_sent
+				}
+				root = {
+					set_fleet_flag = acemod_unbidden_fleet_attacking
+					set_fleet_stance = aggressive
+					set_aggro_range = 10000
+					auto_move_to_planet = {
+						target = event_target:killtarget
+						clear_auto_move_on_arrival = yes
+					}
+				}
+			}
+		}
+	}
+}
+
+# Remove destroyed colonies as valid targets.
+planet_event = {
+	id = acemod_unbidden.800
+	hide_window = yes
+	trigger = {
+		has_planet_flag = acemod_unbidden_fleet_target
+	}
+	is_triggered_only = yes
+	immediate = {
+		remove_planet_flag = acemod_unbidden_fleet_target
+		remove_planet_flag = acemod_unbidden_fleet_target_fleet_sent
+	}
+}

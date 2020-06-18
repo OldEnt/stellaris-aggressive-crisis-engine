@@ -1,0 +1,26 @@
+# Marks each individual Unbidden military fleet
+on_yearly_pulse = {
+	events = {
+		acemod_unbidden.300
+	}
+}
+
+on_entering_system_fleet = {
+	events = {
+		acemod_unbidden.100
+	}
+}
+
+on_colony_destroyed = {
+	events = {
+		acemod_unbidden.800
+	}
+}
+
+# TO DO
+# Frees up markings of non-existent fleets
+#on_yearly_pulse_country = {
+#	events = {
+#		acemod_unbidden.110
+#	}
+#}

@@ -45,6 +45,7 @@ country_event = {
 	hide_window = yes
 	is_triggered_only = yes
 	trigger = {
+		has_global_flag = acemod_activated
 		OR = {
 			is_country_type = swarm
 			is_country_type = extradimensional
@@ -68,9 +69,47 @@ country_event = {
 	}
 }
 
-# redirect fleet
+# test event - launch all fleets
+destroy_colony = yes
+# wait 30 days
 fleet_event = {
 	id = acemod_core.100
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_global_flag = acemod_activated
+		owner = {
+			OR = {
+				is_country_type = swarm
+				is_country_type = extradimensional
+				is_country_type = extradimensional_2
+				is_country_type = extradimensional_3
+				is_country_type = ai_empire
+				is_country_type = gray
+				is_country_type = gray_goo				# A Deadly Tempest mod
+			}
+		}
+	}
+	immediate = {
+		fleet_event = {
+			id = acemod_core.101
+			days = 45
+		}
+		solar_system = {
+			# for testing purposes
+			every_system_planet = {
+				limit = {
+					is_colony = yes
+				}
+				destroy_colony = yes
+			}
+		}
+	}
+}
+
+# redirect fleet
+fleet_event = {
+	id = acemod_core.101
 	hide_window = yes
 	is_triggered_only = yes
 	immediate = {

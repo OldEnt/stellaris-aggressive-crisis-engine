@@ -1,0 +1,9 @@
+﻿l_english:
+ 
+  # Debuffs------------------------------------
+ acemod_crisis_debuff_modifier:0 "Enemy Unknown"
+ acemod_crisis_debuff_modifier_desc:0 "Galactic threats require dedicated research of efficient containment methods."
+ acemod_fallen_awakened_empire_debuff_modifier:0 "Enigmatic Engineering of the Relics"
+ acemod_fallen_awakened_empire_debuff_modifier_desc:0 "The ancients use shipwright technologies beyond our understanding, it is advisable to avoid direct confrontation."
+
+

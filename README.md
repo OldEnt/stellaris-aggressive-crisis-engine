@@ -1,1 +1,1 @@
-Aggressive Crysis Engine for Stellaris end-game crises.
+Aggressive Crisis Engine for Stellaris end-game crises.

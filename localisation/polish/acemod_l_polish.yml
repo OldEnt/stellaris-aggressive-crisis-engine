@@ -1,5 +1,5 @@
-﻿l_polish:
-
+---
+l_english:
   #Original English text by Rodahtnov
   #Prethoryn Scourge ------------------------------------
   tech_acemod_crisis_swarm_1: "Prethoryn Lifeform Analysis"
@@ -52,7 +52,7 @@
   acemod_menu.1.e.tooltip: "§R$CRISIS_FACTOR$§!:\n\n$CRISIS_FACTOR$ $COUNTRY_MODIFIER$:\n$PRODUCES_RESOURCES$\n  £mod_ship_orbit_upkeep_mult£ $constructor_plural$ 5-$AUTOSAVE_YEARLY$ if $VALUE_LESS_THAN$10.\n\n$acemod_lib_menu_can_disable$"
   acemod_menu.1.f: "£job_purge£ $colossus_plural$ - [global_event_country.GetName_acemod_crisis_colossus_disabled]"
   acemod_menu.1.f.tooltip: "§R$CRISIS_FACTOR$§!:\n\n§R$ai_crisis_chain_title$§!, §G$name_list_Prethoryn$§! and §M$name_list_Extradimensional$§! crises spawn £job_purge£ $colossus_plural$.\n\n$TRIGGER_REQUIRES$ $APOCALYPSE_TITLE$ $DLC_START$ $GAMESETUP_HOST$.\n\n$acemod_menu_can_disable$$acemod_menu.1.f.tooltip_disclaimer$"
-  acemod_menu.1.f.tooltip_disclaimer: "\n\nObecnie tylko dla §R$CRISIS_TYPE_CONTINGENCY$§!."
+  acemod_menu.1.f.tooltip_disclaimer: "\n\nCurrently supports §R$CRISIS_TYPE_CONTINGENCY$§!."
   acemod_menu.1.g: "$acemod_lib_menu.1.g$"
   acemod_menu.1.g.tooltip: "$acemod_lib_menu.1.g.tooltip$"
   acemod_menu.1.y: "§BConfigure Crisis Manager§! - [global_event_country.GetName_acemod_crisis_manager_active]"

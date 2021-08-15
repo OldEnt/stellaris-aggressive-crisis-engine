@@ -1,24 +1,24 @@
-﻿l_polish:
-
+---
+l_english:
   #Menu------------------------------------
   acemod_crisis_manager_name: "Aggressive Crisis Engine"
   acemod_crisis_manager.1.name: "$acemod_crisis_manager_name$: $acemod_crisis_manager_name_singular$"
   acemod_crisis_manager.1.desc: "$SETTINGS$ for §R$CRISIS_FACTOR$§!. They can be changed at any point during the game from this menu.\n\nThis §BCrisis Manager§! does not change game files and has to be §G$ACTIVE$§! for it to work, except for §W£mod_army_damage_mult£ $ARMY_POWER_HEADER$ $MODIFIER$§! and §W$DISABLE$ $GAME_SPEED_4$ $CRISIS_FACTOR$§! settings, which are always §G$ACTIVE$§!.\n\nData from the Manager and its dignostics tools is stored in a save, most of it is accessible through §WDebugging tools§! window. Manager records when and what crisis it has spawned."
-  acemod_crisis_manager.1.a: "§B$acemod_crisis_manager_name_singular$§! jest [global_event_country.GetName_acemod_crisis_manager_active]"
-  acemod_crisis_manager.1.a.tooltip: "Aktywuje lub deaktywuje §BMenedżer Kryzysu§!."
-  acemod_crisis_manager.1.y: "§ENarzędzia debugowania§!"
-  acemod_crisis_manager.1.y.tooltip: "Wyświetla szeroki zakres danych o ustawieniach gry i modu."
+  acemod_crisis_manager.1.a: "§B$acemod_crisis_manager_name_singular$§! is [global_event_country.GetName_acemod_crisis_manager_active]"
+  acemod_crisis_manager.1.a.tooltip: "Enables or disables §BCrisis Manager§!."
+  acemod_crisis_manager.1.y: "§EDebugging tools§!"
+  acemod_crisis_manager.1.y.tooltip: "Shows expansive data on game and mod setup."
   acemod_crisis_manager.1.z: "§Y$SAVE$§!"
-  acemod_crisis_manager.1.z.tooltip: "Powrót do menu głównego."
+  acemod_crisis_manager.1.z.tooltip: "Back to main menu."
   acemod_crisis_manager_trigger_yes: "§G$ACTIVE$§!"
   acemod_crisis_manager_trigger_no: "§R$NOT_ACTIVE$§!"
   acemod_crisis_manager_trigger_pass: "£trigger_yes£"
   acemod_crisis_manager_trigger_fail: "£trigger_no£"
-  acemod_crisis_manager_name_singular: "Menedżer Kryzysu"
-  acemod_crisis_manager_name_plural: "Menedżery kryzysu"
+  acemod_crisis_manager_name_singular: "Crisis Manager"
+  acemod_crisis_manager_name_plural: "Crisis managers"
   #Galaxy Settings------------------------------------
   acemod_crisis_manager_blank: ""
-  acemod_crisis_manager_unobtainable: "Nieosiągalne"
+  acemod_crisis_manager_unobtainable: "Unobtainable"
   acemod_crisis_manager.4.name: "$GALAXY_SETTINGS$"
   acemod_crisis_manager.4.desc: "[global_event_country.GetName_acemod_crisis_manager_var_country_achievements_disabled]\n$FE_IRONMAN$: [global_event_country.GetName_acemod_crisis_manager_is_ironman]\nMultiplayer: [global_event_country.GetName_acemod_crisis_manager_is_multiplayer]\n[global_event_country.GetName_acemod_crisis_manager_var_country_is_checksum_modified]\n$OUTLINER_PLAYER_COUNTRIES$: $acemod_crisis_manager_var_country_num_human_players_start$ ($START$), $acemod_crisis_manager_var_country_num_human_players_live$ ($SOCIAL_DSTATUS_PLAYING$)\n$acemod_crisis_manager_var_country_num_systems$\n$acemod_crisis_manager_var_country_num_empires$\n$acemod_crisis_manager_var_country_num_advanced_empires$\n$acemod_crisis_manager_var_country_num_fallen_empires$\n$acemod_crisis_manager_var_country_num_marauder_empires$\n$acemod_crisis_manager_var_country_mid_game_year$\n$acemod_crisis_manager_var_country_end_game_year$\n$acemod_crisis_manager_var_country_victory_year$\n$acemod_crisis_manager_var_country_num_guaranteed_colonies$\n$acemod_crisis_manager_var_country_num_gateways$\n$acemod_crisis_manager_var_country_num_wormhole_pairs$\n$acemod_crisis_manager_var_country_num_hyperlanes$\n$acemod_crisis_manager_var_country_habitable_worlds_scale$\n$acemod_crisis_manager_var_country_primitive_worlds_scale$\n$acemod_crisis_manager_var_country_crisis_strength_scale$\n$acemod_crisis_manager_var_country_tech_costs_scale$\n$acemod_crisis_manager_var_country_is_difficulty$\n$acemod_crisis_manager_var_country_caravaneers_enabled$\n$acemod_crisis_manager_var_country_xeno_compatibility_enabled$\n$acemod_crisis_manager_var_country_setup_scenario$\n$acemod_crisis_manager_var_country_scaling_difficulty$\n$acemod_crisis_manager_var_country_scaling_aggressiveness$\n$acemod_crisis_manager_var_country_advanced_neighbors$\n$acemod_crisis_manager_var_country_empire_placement$\n$acemod_crisis_manager_dlc_check$"
   acemod_crisis_manager.4.a: "$MESSAGE_OK$"

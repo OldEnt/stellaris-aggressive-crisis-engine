@@ -1,9 +1,9 @@
-﻿l_french:
-
+---
+l_english:
   #Original English text by Rodahtnov
-  #Prethoryn Scourge l_french:l_french:l_french:l_french:------------------------
-  tech_acemod_crisis_swarm_1: "Prethoryn Lifeform Analysis"
-  tech_acemod_crisis_swarm_1_desc: "By remotely probing and extracting Prethoryn tissue we can gain more insight on how that strange exogalactic lifeform works and how to remove its infestation.\n\n"
+  #Prethoryn Scourge ------------------------------------
+  tech_acemod_crisis_swarm_1: "Analyse des formes de vide Prétoriennes"
+  tech_acemod_crisis_swarm_1_desc: "En sondant et extrayant les membranes Prétoriennes, nous pouvons obtenir plus d'informations sur le fonctionnement de cette étrange forme de vie extragalactique et de comment retirer son infestation.\n\n"
   tech_acemod_crisis_swarm_2: "Anti-Prethoryn Spores Solvent"
   tech_acemod_crisis_swarm_2_desc: "When they attack or move around systems, Prethoryn uses microorganism to corrode and corrupt nearby organism and technology; with a series of nanodispensers that damage can be mitigated and reverted before it is too late.\n\n"
   tech_acemod_crisis_swarm_3: "Anti-Prethoryn Viral Charges"

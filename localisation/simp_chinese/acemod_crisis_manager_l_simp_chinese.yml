@@ -1,5 +1,5 @@
----
-l_english:
+﻿l_simp_chinese:
+
   #Menu------------------------------------
   acemod_crisis_manager_name: "强力危机工具"
   acemod_crisis_manager.1.name: "$acemod_crisis_manager_name$: $acemod_crisis_manager_name_singular$"

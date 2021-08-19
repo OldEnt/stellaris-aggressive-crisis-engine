@@ -1,5 +1,4 @@
 ﻿l_simp_chinese:
-
   #Menu------------------------------------
   acemod_crisis_manager_name: "强力危机工具"
   acemod_crisis_manager.1.name: "$acemod_crisis_manager_name$: $acemod_crisis_manager_name_singular$"
@@ -170,7 +169,7 @@
   acemod_crisis_manager.10.name: "§E$acemod_crisis_manager_name$: §!$acemod_crisis_manager.1.y$"
   acemod_crisis_manager.10.desc: "调试数据存储在global_event，作为全局flag。\n\n报告问题时请提供所有调试窗口的屏幕截图或存档。"
   acemod_crisis_manager.10.a: "$MESSAGE_GOTO$ $GALAXY_SETTINGS$"
-  acemod_crisis_manager.10.a.tooltip: "按设置收集并在$GAME_MULTIPLAYER_LOBBY$中显示星系的信息"
+  acemod_crisis_manager.10.a.tooltip: "按设置收集并在$GAME_MULTIPLAYER_LOBBY$中显示星系的信息。"
   acemod_crisis_manager.10.b: "游戏调试"
   acemod_crisis_manager.10.b.tooltip: "诊断工具。评估星系状态和模组设置。"
   acemod_crisis_manager.10.c: "ACE调试"

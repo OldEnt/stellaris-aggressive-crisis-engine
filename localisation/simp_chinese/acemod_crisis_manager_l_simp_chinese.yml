@@ -1,6 +1,6 @@
-﻿l_simp_chinese:
-
-  #Menul_simp_chinese:---------------------------------
+---
+l_english:
+  #Menu------------------------------------
   acemod_crisis_manager_name: "强力危机工具"
   acemod_crisis_manager.1.name: "$acemod_crisis_manager_name$：$acemod_crisis_manager_name_singular$"
   acemod_crisis_manager.1.desc: "§R$CRISIS_FACTOR$§!的$SETTINGS$。可在游戏任何时间到本菜单更改。\n\n本§B危机管理器§!不修改游戏文件，除§W£mod_army_damage_mult£ $ARMY_POWER_HEADER$ $MODIFIER$§!和§W$DISABLE$ $GAME_SPEED_4$ $CRISIS_FACTOR$§!设置为固定§G$ACTIVE$§!外，均需设置为§G$ACTIVE$§!才生效。\n\n管理器及其诊断工具数据储存于同一存档中，大部分可通过§W调试工具§!窗口访问。管理器记录了何种危机在何时生成。"
@@ -139,26 +139,26 @@
   acemod_crisis_manager.1.i.tooltip: "$acemod_lib_menu.1.g.tooltip$"
   #Reset Crisis Manager settings to default.------------------------------------
   acemod_crisis_manager.1.w: "$RESET_DEFAULT$"
-  acemod_crisis_manager.1.w.tooltip: "§B$acemod_crisis_manager_name_singular$§!:\n$RESET_DEFAULT_TOOLTIP$."
+  acemod_crisis_manager.1.w.tooltip: "§B$acemod_crisis_manager_name_singular$§!：\n$RESET_DEFAULT_TOOLTIP$."
   #Immediate crisis spawn menu------------------------------------
   acemod_crisis_manager.1.m: "§E$acemod_crisis_manager.1.m_plain$§!"
   acemod_crisis_manager.1.m.tooltip: "$START$ $CRISIS_FACTOR$事件链。"
   acemod_crisis_manager.1.m_plain: "$START$ $CRISIS_FACTOR$"
   acemod_crisis_manager.12.name: "$acemod_crisis_manager.1.m_plain$"
   acemod_crisis_manager.12.desc: "§R$CRISIS_FACTOR$§!即时生成选项。你可以§B强制触§!发多种危机，但每种只能触发一次。"
-  acemod_crisis_manager.12.a: "§G$name_list_Prethoryn$: $crisis.11.name$§!"
-  acemod_crisis_manager.12.a.tooltip: "$START$ §G$name_list_Prethoryn$§! $CRISIS_FACTOR$. $acemod_crisis_manager.1.h.tooltip$"
-  acemod_crisis_manager.12.b: "§R$CRISIS_TYPE_CONTINGENCY$: $crisis.2010.name$§!"
-  acemod_crisis_manager.12.b.tooltip: "$START$ §R$CRISIS_TYPE_CONTINGENCY$§! $CRISIS_FACTOR$."
-  acemod_crisis_manager.12.c: "§M$name_list_Extradimensional$: $crisis.1008.name$§!"
-  acemod_crisis_manager.12.c.tooltip: "$START$ §M$name_list_Extradimensional$§! $CRISIS_FACTOR$."
+  acemod_crisis_manager.12.a: "§G$name_list_Prethoryn$：$crisis.11.name$§!"
+  acemod_crisis_manager.12.a.tooltip: "$START$ §G$name_list_Prethoryn$§! $CRISIS_FACTOR$。$acemod_crisis_manager.1.h.tooltip$"
+  acemod_crisis_manager.12.b: "§R$CRISIS_TYPE_CONTINGENCY$：$crisis.2010.name$§!"
+  acemod_crisis_manager.12.b.tooltip: "$START$ §R$CRISIS_TYPE_CONTINGENCY$§! $CRISIS_FACTOR$。"
+  acemod_crisis_manager.12.c: "§M$name_list_Extradimensional$：$crisis.1008.name$§!"
+  acemod_crisis_manager.12.c.tooltip: "$START$ §M$name_list_Extradimensional$§! $CRISIS_FACTOR$。"
   acemod_crisis_manager.12.z: "§Y返回$acemod_crisis_manager_name_singular$菜单§!"
   acemod_crisis_manager.12.z.tooltip: "返回$acemod_crisis_manager.1.name$"
   #Crisis Manager Advanced Options menu.------------------------------------
   acemod_crisis_manager.1.x: "§E$acemod_crisis_manager.1.x_plain$§!"
   acemod_crisis_manager.1.x.tooltip: "显示$acemod_menu.1.x$。通常不需要。"
   acemod_crisis_manager.1.x_plain: "高级选项"
-  acemod_crisis_manager.11.name: "$acemod_menu_name$: $acemod_menu.1.x_plain$"
+  acemod_crisis_manager.11.name: "$acemod_menu_name$：$acemod_menu.1.x_plain$"
   acemod_crisis_manager.11.desc: "以下选项在通常游戏中无需更改。"
   acemod_crisis_manager.11.z: "§Y返回$acemod_crisis_manager_name_singular$菜单§!"
   acemod_crisis_manager.11.z.tooltip: "返回$acemod_crisis_manager.1.name$"
@@ -167,7 +167,7 @@
   acemod_crisis_manager.11.b: "$acemod_crisis_manager_name_acg$额外支持：[global_event_country.GetName_acemod_crisis_manager_acg_support_disabled_reverse]"
   acemod_crisis_manager.11.b.tooltip: "针对$acemod_crisis_manager_name_acg$重制的支持。如未关闭，则不能启用技术和Debuff。"
   #Debugging tools menu------------------------------------
-  acemod_crisis_manager.10.name: "§E$acemod_crisis_manager_name$: §!$acemod_crisis_manager.1.y$"
+  acemod_crisis_manager.10.name: "§E$acemod_crisis_manager_name$：§!$acemod_crisis_manager.1.y$"
   acemod_crisis_manager.10.desc: "调试数据存储在global_event，作为全局flag。\n\n报告问题时请提供所有调试窗口的屏幕截图或存档。"
   acemod_crisis_manager.10.a: "$MESSAGE_GOTO$ $GALAXY_SETTINGS$"
   acemod_crisis_manager.10.a.tooltip: "按设置收集并在$GAME_MULTIPLAYER_LOBBY$中显示星系的信息"

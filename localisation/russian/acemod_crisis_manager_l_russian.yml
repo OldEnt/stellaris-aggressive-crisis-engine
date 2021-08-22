@@ -1,5 +1,5 @@
-﻿l_russian:
-
+---
+l_english:
   #Menu------------------------------------
   acemod_crisis_manager_name: "Aggressive Crisis Engine"
   acemod_crisis_manager.1.name: "$acemod_crisis_manager_name$: $acemod_crisis_manager_name_singular$"
@@ -10,8 +10,8 @@
   acemod_crisis_manager.1.y.tooltip: "Показывает обширные данные по игре и моду."
   acemod_crisis_manager.1.z: "§Y$SAVE$§!"
   acemod_crisis_manager.1.z.tooltip: "Вернутся в главное меню."
-  acemod_crisis_manager_trigger_yes: "§G$включено$§!"
-  acemod_crisis_manager_trigger_no: "§R$выключено$§!"
+  acemod_crisis_manager_trigger_yes: "§G$ACTIVE$§!"
+  acemod_crisis_manager_trigger_no: "§R$NOT_ACTIVE$§!"
   acemod_crisis_manager_trigger_pass: "£trigger_yes£"
   acemod_crisis_manager_trigger_fail: "£trigger_no£"
   acemod_crisis_manager_name_singular: "Кризис Менеджер"

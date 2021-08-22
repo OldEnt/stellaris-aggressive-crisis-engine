@@ -1,9 +1,9 @@
-﻿l_russian:
-
+---
+l_english:
   #Menu------------------------------------
   acemod_crisis_manager_name: "Aggressive Crisis Engine"
   acemod_crisis_manager.1.name: "$acemod_crisis_manager_name$: $acemod_crisis_manager_name_singular$"
-  acemod_crisis_manager.1.desc: "$SETTINGS$ для §R$CRISIS_FACTOR$§!. Они могут быть изменены в любой момент игры в этом меню.\n\nЭтот §BCrisis Manager§! не меняет игровые файлы и должен быть §G$ACTIVE$§! для его работы, за исключением для §W£mod_army_damage_mult£ $ARMY_POWER_HEADER$ $MODIFIER$§! и §W$DISABLE$ $GAME_SPEED_4$ $CRISIS_FACTOR$§! настроек, которые всегда §G$ACTIVE$§!.\n\nДанные из Менеджера и инструменты его диагностики сохранены в файле сохранения, большинство из них доступны через §WИнструменты отладки§!. Менеджер записывает когда и какой кризис появился."
+  acemod_crisis_manager.1.desc: "$SETTINGS$ для §R$CRISIS_FACTOR$§!. Могут быть изменены в любой момент игры в этом меню.\n\n§BКризис Менеджер§! не меняет игровые файлы и должен быть §G$ACTIVE$§! для его работы, за исключением для §W£mod_army_damage_mult£ $ARMY_POWER_HEADER$ $MODIFIER$§! и §W$DISABLE$ $GAME_SPEED_4$ $CRISIS_FACTOR$§! настроек, которые всегда §G$ACTIVE$$§!.\n\nДанные из Менеджера и инструменты его диагностики сохранены в файле сохранения, большинство из них доступны через §WИнструменты отладки§!. Менеджер записывает когда и какой кризис появился."
   acemod_crisis_manager.1.a: "§B$acemod_crisis_manager_name_singular$§! это [global_event_country.GetName_acemod_crisis_manager_active]"
   acemod_crisis_manager.1.a.tooltip: "Включает или выключает §BКризис Менеджер§!."
   acemod_crisis_manager.1.y: "§EИнструменты отладки§!"
@@ -145,7 +145,7 @@
   acemod_crisis_manager.1.m.tooltip: "$START$ $CRISIS_FACTOR$ цепочку заданий."
   acemod_crisis_manager.1.m_plain: "$START$ $CRISIS_FACTOR$"
   acemod_crisis_manager.12.name: "$acemod_crisis_manager.1.m_plain$"
-  acemod_crisis_manager.12.desc: "Опции мгновенного появления для §R$CRISIS_FACTOR$§!. Вы можете §Bспровоцировать§! больше чем один кризис, но лишь один вид."
+  acemod_crisis_manager.12.desc: "Опции мгновенного появления для §R$CRISIS_FACTOR$§!. Вы можете §Bспровоцировать§! больше чем один кризис, но разных типов."
   acemod_crisis_manager.12.a: "§G$name_list_Prethoryn$: $crisis.11.name$§!"
   acemod_crisis_manager.12.a.tooltip: "$START$ §G$name_list_Prethoryn$§! $CRISIS_FACTOR$. $acemod_crisis_manager.1.h.tooltip$"
   acemod_crisis_manager.12.b: "§R$CRISIS_TYPE_CONTINGENCY$: $crisis.2010.name$§!"
@@ -157,7 +157,7 @@
   #Crisis Manager Advanced Options menu.------------------------------------
   acemod_crisis_manager.1.x: "§E$acemod_crisis_manager.1.x_plain$§!"
   acemod_crisis_manager.1.x.tooltip: "Показывает $acemod_menu.1.x$. Обычно не требуется."
-  acemod_crisis_manager.1.x_plain: "Расширенные опции"
+  acemod_crisis_manager.1.x_plain: "Дополнительные опции"
   acemod_crisis_manager.11.name: "$acemod_menu_name$: $acemod_menu.1.x_plain$"
   acemod_crisis_manager.11.desc: "Нижеперечисленные опции не требуют изменений при нормальной игре."
   acemod_crisis_manager.11.z: "§YВернуться в $acemod_crisis_manager_name_singular$ меню§!"

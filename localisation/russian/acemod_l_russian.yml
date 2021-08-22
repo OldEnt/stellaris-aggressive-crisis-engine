@@ -1,5 +1,5 @@
-﻿l_russian:
-
+---
+l_english:
   #Original English text by Rodahtnov
   #Prethoryn Scourge ------------------------------------
   tech_acemod_crisis_swarm_1: "Анализ Преторианцев"
@@ -41,7 +41,7 @@
   acemod_menu.1.name: "$acemod_menu_name$: $GALAXY_SETTINGS$"
   acemod_menu.1.desc: "Выберете дополнительные модули §RAggressive Crisis Engine§!. Только хост может устанавливать их в мультиплеере."
   acemod_menu.1.a: "£job_researcher£ $TECHNOLOGY$ - [global_event_country.GetName_acemod_technology_disabled]"
-  acemod_menu.1.a.tooltip: "Дополнительные §RACEMOD§! технологии добавлены в колоду:\n§G+25%§! урон кризиса для каждой волны, вплоть до §G+75%§! ."
+  acemod_menu.1.a.tooltip: "Дополнительные §RACEMOD§! технологии добавлены в перечень:\n§G+25%§! урон кризиса для каждой волны, вплоть до §G+75%§! ."
   acemod_menu.1.b: "£mod_ship_damage_mult£ $acemod_crisis_debuff_modifier$ - [global_event_country.GetName_acemod_crisis_debuff_disabled]"
   acemod_menu.1.b.tooltip: "§G$GALAXY_EMPIRE_VIEW$§!:\n\n$CRISIS_FACTOR$ $COUNTRY_MODIFIER$:\n£mod_ship_damage_mult£ §H$acemod_crisis_debuff_modifier$§!:\n$mod_damage_vs_country_type_swarm_mult$: §R-75%§!\n$mod_damage_vs_country_type_ai_empire_mult$: §R-75%§!\n$mod_damage_vs_country_type_extradimensional_mult$: §R-75%§!\n$mod_damage_vs_country_type_extradimensional_2_mult$: §R-75%§!\n$mod_damage_vs_country_type_extradimensional_3_mult$: §R-75%§!\n$mod_damage_vs_country_type_gray_goo_mult$: §R-25%§!\n---------------\n$acemod_crisis_debuff_modifier_desc$"
   acemod_menu.1.c: "£acemod_mod_fallen_awakened_empire_debuff_modifier£ $acemod_fallen_awakened_empire_debuff_modifier$ - [global_event_country.GetName_acemod_fallen_awakened_empire_debuff_disabled]"
@@ -49,14 +49,14 @@
   acemod_menu.1.d: "£acemod_mod_ship_part_wormhole_modifier£ $ai_crisis_poi_1$ $abandoned_wormhole_station$ - [global_event_country.GetName_acemod_defensive_jumpdrive_protocol_disabled]"
   acemod_menu.1.d.tooltip: "§R$ai_crisis_chain_title$§! призывает §H$abandoned_wormhole_station$s§! над §H$ai_crisis_poi_1$s§!, позволяя отзывать свой оборонительный флот\n\n$acemod_menu_can_disable$"
   acemod_menu.1.e: "£mod_ship_orbit_upkeep_mult£ $constructor_plural$ - [global_event_country.GetName_acemod_constructor_reinforcements_disabled]"
-  acemod_menu.1.e.tooltip: "§R$CRISIS_FACTOR$§!:\n\n$CRISIS_FACTOR$ $COUNTRY_MODIFIER$:\n$PRODUCES_RESOURCES$\n  £mod_ship_orbit_upkeep_mult£ $constructor_plural$ 5-$AUTOSAVE_YEARLY$ if $VALUE_LESS_THAN$10.\n\n$acemod_lib_menu_can_disable$"
+  acemod_menu.1.e.tooltip: "§R$CRISIS_FACTOR$§!:\n\n$CRISIS_FACTOR$ $COUNTRY_MODIFIER$:\n$PRODUCES_RESOURCES$\n  £mod_ship_orbit_upkeep_mult£ $constructor_plural$ 5-$AUTOSAVE_YEARLY$ если $VALUE_LESS_THAN$10.\n\n$acemod_lib_menu_can_disable$"
   acemod_menu.1.f: "£job_purge£ $colossus_plural$ - [global_event_country.GetName_acemod_crisis_colossus_disabled]"
-  acemod_menu.1.f.tooltip: "§R$CRISIS_FACTOR$§!:\n\n§R$ai_crisis_chain_title$§!, §G$name_list_Prethoryn$§! and §M$name_list_Extradimensional$§! crises spawn £job_purge£ $colossus_plural$.\n\n$TRIGGER_REQUIRES$ $APOCALYPSE_TITLE$ $DLC_START$ $GAMESETUP_HOST$.\n\n$acemod_menu_can_disable$$acemod_menu.1.f.tooltip_disclaimer$"
+  acemod_menu.1.f.tooltip: "§R$CRISIS_FACTOR$§!:\n\n§R$ai_crisis_chain_title$§!, §G$name_list_Prethoryn$§! и §M$name_list_Extradimensional$§! кризис создаёт £job_purge£ $colossus_plural$.\n\n$TRIGGER_REQUIRES$ $APOCALYPSE_TITLE$ $DLC_START$ $GAMESETUP_HOST$.\n\n$acemod_menu_can_disable$$acemod_menu.1.f.tooltip_disclaimer$"
   acemod_menu.1.f.tooltip_disclaimer: "\n\nВ настоящее время поддерживает §R$CRISIS_TYPE_CONTINGENCY$§!."
   acemod_menu.1.g: "$acemod_lib_menu.1.g$"
   acemod_menu.1.g.tooltip: "$acemod_lib_menu.1.g.tooltip$"
-  acemod_menu.1.y: "§BConfigure Crisis Manager§! - [global_event_country.GetName_acemod_crisis_manager_active]"
-  acemod_menu.1.y.tooltip: "Открывает §BCrisis Manager§! меню где оно может быть активировано, отключено и настроено.\n\nОно должно быть §G$ACTIVE$§! для работы."
+  acemod_menu.1.y: "§BНастроить Кризис Менеджер§! - [global_event_country.GetName_acemod_crisis_manager_active]"
+  acemod_menu.1.y.tooltip: "Открывает §BКризис Менеджер§! меню где оно может быть активировано, отключено и настроено.\n\nОно должно быть §G$ACTIVE$§! для работы."
   acemod_trigger_yes: "§G$ACTIVE$§!"
   acemod_trigger_no: "§R$NOT_ACTIVE$§!"
   acemod_menu.1.z: "§Y$SAVE$§!"

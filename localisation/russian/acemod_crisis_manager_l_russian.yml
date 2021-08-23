@@ -1,17 +1,17 @@
-﻿l_russian:
-
+---
+l_english:
   #Menu------------------------------------
   acemod_crisis_manager_name: "Aggressive Crisis Engine"
   acemod_crisis_manager.1.name: "$acemod_crisis_manager_name$: $acemod_crisis_manager_name_singular$"
-  acemod_crisis_manager.1.desc: "$SETTINGS$ для §R$CRISIS_FACTOR$§!. Могут быть изменены в любой момент игры в этом меню.\n\n§BКризис Менеджер§! не меняет игровые файлы и должен быть §G$включен$§! чтобы он работал. §W£mod_army_damage_mult£ $ARMY_POWER_HEADER$ $MODIFIER$§! и §W$DISABLE$ $GAME_SPEED_4$ $CRISIS_FACTOR$§! настроек, которые всегда §G$ACTIVE$$§!.\n\nДанные из Менеджера и инструменты его диагностики сохранены в файле сохранения, большинство из них доступны через §WИнструменты отладки§!. Менеджер записывает когда и какой кризис появился."
+  acemod_crisis_manager.1.desc: "$SETTINGS$ для §R$CRISIS_FACTOR$§!. Могут быть изменены в любой момент игры в этом меню.\n\n§BКризис Менеджер§! не меняет игровые файлы и должен быть §G$ON$§! чтобы он работал. §W£mod_army_damage_mult£ $ARMY_POWER_HEADER$ $MODIFIER$§! и §W$DISABLE$ $GAME_SPEED_4$ $CRISIS_FACTOR$§! настроек, которые всегда §G$ON$$§!.\n\nДанные из Менеджера и инструменты его диагностики сохранены в файле сохранения, большинство из них доступны через §WИнструменты отладки§!. Менеджер записывает когда и какой кризис появился."
   acemod_crisis_manager.1.a: "§B$acemod_crisis_manager_name_singular$§! [global_event_country.GetName_acemod_crisis_manager_active]"
   acemod_crisis_manager.1.a.tooltip: "Включает или выключает §BКризис Менеджер§!."
   acemod_crisis_manager.1.y: "§EИнструменты отладки§!"
   acemod_crisis_manager.1.y.tooltip: "Показывает обширные данные по игре и моду."
   acemod_crisis_manager.1.z: "§Y$SAVE$§!"
   acemod_crisis_manager.1.z.tooltip: "Вернутся в главное меню."
-  acemod_crisis_manager_trigger_yes: "§G$ACTIVE$§!"
-  acemod_crisis_manager_trigger_no: "§R$NOT_ACTIVE$§!"
+  acemod_crisis_manager_trigger_yes: "§G$ON$§!"
+  acemod_crisis_manager_trigger_no: "§R$OFF$§!"
   acemod_crisis_manager_trigger_pass: "£trigger_yes£"
   acemod_crisis_manager_trigger_fail: "£trigger_no£"
   acemod_crisis_manager_name_singular: "Кризис Менеджер"
@@ -133,7 +133,7 @@
   acemod_crisis_manager.1.h.tooltip: "Пропустить ожидание Преторианского нашествия."
   #Disable Default endgame early start triggers------------------------------------
   acemod_crisis_manager.1.l: "(§G$SETTINGS$ $ACTIVE$§!) $DISABLE$ $GAME_SPEED_4$ $CRISIS_FACTOR$ - [global_event_country.GetName_acemod_crisis_manager_disable_default_endgame_early_start_triggers]"
-  acemod_crisis_manager.1.l.tooltip: "$DISABLE$ $CRISIS_FACTOR$ шанс появления когда $FE_END_GAME$ достигнут $AND$ ранний $CRISIS_FACTOR$ появляется триггер, такой как $TECH_IS_DANGEROUS$ исследована.\n\nНельзя выключить после $FE_END_GAME$ $AND$ когда кризис свернулся!"
+  acemod_crisis_manager.1.l.tooltip: "$DISABLE$ $CRISIS_FACTOR$ шанс появления когда $FE_END_GAME$ достигнут $AND$ ранний $CRISIS_FACTOR$ появляется триггер $TECH_IS_DANGEROUS$ исследована.\n\nНельзя выключить после $FE_END_GAME$ $AND$ когда кризис появился!"
   #Crisis Armies Strength Multiplier------------------------------------
   acemod_crisis_manager.1.i: "(§G$SETTINGS$ $ACTIVE$§!) $acemod_lib_menu.1.g$"
   acemod_crisis_manager.1.i.tooltip: "$acemod_lib_menu.1.g.tooltip$"

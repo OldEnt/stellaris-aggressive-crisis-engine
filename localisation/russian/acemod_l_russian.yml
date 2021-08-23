@@ -1,5 +1,5 @@
-﻿l_russian:
-
+---
+l_english:
   #Original English text by Rodahtnov
   #Prethoryn Scourge ------------------------------------
   tech_acemod_crisis_swarm_1: "Анализ Преторианцев"
@@ -56,7 +56,7 @@
   acemod_menu.1.g: "$acemod_lib_menu.1.g$"
   acemod_menu.1.g.tooltip: "$acemod_lib_menu.1.g.tooltip$"
   acemod_menu.1.y: "§BНастроить Кризис Менеджер§! - [global_event_country.GetName_acemod_crisis_manager_active]"
-  acemod_menu.1.y.tooltip: "Открывает меню §BКризис Менеджера§! где он может быть активирован, деактивирован и настроен.\n\nОн должен быть §G$ACTIVE$§! для того чтобы он работал."
+  acemod_menu.1.y.tooltip: "Открывает меню §BКризис Менеджера§! где он может быть активирован, деактивирован и настроен.\n\nОн должен быть §G$ON$§! для того чтобы он работал."
   acemod_trigger_yes: "§G$ACTIVE$§!"
   acemod_trigger_no: "§R$NOT_ACTIVE$§!"
   acemod_menu.1.z: "§Y$SAVE$§!"

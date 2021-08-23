@@ -1,5 +1,5 @@
-﻿l_russian:
-
+---
+l_english:
   #Original English text by Rodahtnov
   #Prethoryn Scourge ------------------------------------
   tech_acemod_crisis_swarm_1: "Анализ Преторианцев"
@@ -39,9 +39,9 @@
   #Menu------------------------------------
   acemod_menu_name: "Aggressive Crisis Engine"
   acemod_menu.1.name: "$acemod_menu_name$: $GALAXY_SETTINGS$"
-  acemod_menu.1.desc: "Выберете дополнительные модули §RAggressive Crisis Engine§!. В мультиплеере менять настройки может только хост."
+  acemod_menu.1.desc: "Выберете дополнительные настройки §RAggressive Crisis Engine§!. В мультиплеере менять настройки может только хост."
   acemod_menu.1.a: "£job_researcher£ $TECHNOLOGY$ - [global_event_country.GetName_acemod_technology_disabled]"
-  acemod_menu.1.a.tooltip: "Дополнительные §RACEMOD§! технологии добавлены в перечень:\n§G+25%§! урон кризиса для каждой волны, вплоть до §G+75%§! ."
+  acemod_menu.1.a.tooltip: "Дополнительные §RACEMOD§! технологии добавлены в перечень:\n§G+25%§! урон кризиса для каждой волны увеличивается, вплоть до §G+75%§! ."
   acemod_menu.1.b: "£mod_ship_damage_mult£ $acemod_crisis_debuff_modifier$ - [global_event_country.GetName_acemod_crisis_debuff_disabled]"
   acemod_menu.1.b.tooltip: "§G$GALAXY_EMPIRE_VIEW$§!:\n\n$CRISIS_FACTOR$ $COUNTRY_MODIFIER$:\n£mod_ship_damage_mult£ §H$acemod_crisis_debuff_modifier$§!:\n$mod_damage_vs_country_type_swarm_mult$: §R-75%§!\n$mod_damage_vs_country_type_ai_empire_mult$: §R-75%§!\n$mod_damage_vs_country_type_extradimensional_mult$: §R-75%§!\n$mod_damage_vs_country_type_extradimensional_2_mult$: §R-75%§!\n$mod_damage_vs_country_type_extradimensional_3_mult$: §R-75%§!\n$mod_damage_vs_country_type_gray_goo_mult$: §R-25%§!\n---------------\n$acemod_crisis_debuff_modifier_desc$"
   acemod_menu.1.c: "£acemod_mod_fallen_awakened_empire_debuff_modifier£ $acemod_fallen_awakened_empire_debuff_modifier$ - [global_event_country.GetName_acemod_fallen_awakened_empire_debuff_disabled]"

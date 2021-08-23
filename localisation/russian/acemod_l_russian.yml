@@ -1,5 +1,5 @@
-﻿l_russian:
-
+---
+l_english:
   #Original English text by Rodahtnov
   #Prethoryn Scourge ------------------------------------
   tech_acemod_crisis_swarm_1: "Анализ Преторианцев"
@@ -47,7 +47,7 @@
   acemod_menu.1.c: "£acemod_mod_fallen_awakened_empire_debuff_modifier£ $acemod_fallen_awakened_empire_debuff_modifier$ - [global_event_country.GetName_acemod_fallen_awakened_empire_debuff_disabled]"
   acemod_menu.1.c.tooltip: "§G$GALAXY_EMPIRE_VIEW$§!:\n\n$war_goal_wg_war_in_heaven$ $COUNTRY_MODIFIER$:\n£acemod_mod_fallen_awakened_empire_debuff_modifier£ §H$acemod_fallen_awakened_empire_debuff_modifier$§!:\n$mod_damage_vs_country_type_fallen_empire_mult$: §R-25%§!\n$mod_damage_vs_country_type_awakened_fallen_empire_mult$: §R-25%§!\n---------------\n$acemod_fallen_awakened_empire_debuff_modifier_desc$"
   acemod_menu.1.d: "£acemod_mod_ship_part_wormhole_modifier£ Червоточины над Мирами Машин - [global_event_country.GetName_acemod_defensive_jumpdrive_protocol_disabled]"
-  acemod_menu.1.d.tooltip: "R$ai_crisis_chain_title$§! призывает червоточину над каждой планетой типа §H$ai_crisis_poi_1$§!, с помощью которых она может призвать флот для обороны.\n\n$acemod_menu_can_disable$"
+  acemod_menu.1.d.tooltip: "§R$ai_crisis_chain_title$§! призывает червоточину над каждой планетой типа §H$ai_crisis_poi_1$§!, с помощью которых она может призвать флот для обороны.\n\n$acemod_menu_can_disable$"
   acemod_menu.1.e: "£mod_ship_orbit_upkeep_mult£ $constructor_plural$ - [global_event_country.GetName_acemod_constructor_reinforcements_disabled]"
   acemod_menu.1.e.tooltip: "§R$CRISIS_FACTOR$§!:\n\n$CRISIS_FACTOR$ $COUNTRY_MODIFIER$:\n$PRODUCES_RESOURCES$\n  £mod_ship_orbit_upkeep_mult£ $constructor_plural$ 5-$AUTOSAVE_YEARLY$ если их кол-во $VALUE_LESS_THAN$10.\n\n$acemod_lib_menu_can_disable$"
   acemod_menu.1.f: "£job_purge£ $colossus_plural$ - [global_event_country.GetName_acemod_crisis_colossus_disabled]"

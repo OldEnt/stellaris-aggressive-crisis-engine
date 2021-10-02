@@ -1,5 +1,5 @@
-﻿l_french:
-
+---
+l_english:
   #Menu------------------------------------
   acemod_crisis_manager_name: "Aggressive Crisis Engine"
   acemod_crisis_manager.1.name: "$acemod_crisis_manager_name$: $acemod_crisis_manager_name_singular$"
@@ -66,7 +66,7 @@
   acemod_crisis_manager_var_country_empire_placement_is_not_off: "[global_event_country.acemod_crisis_manager_var_country_empire_placement]"
   acemod_crisis_manager_var_country_empire_placement_is_unobtainable: "404 $acemod_crisis_manager_unobtainable$"
   acemod_crisis_manager_dlc_check: "$DLC_START$ $GAMESETUP_HOST$:\ndlc001 $acemod_crisis_manager_dlc_check_symbols_of_domination$ 404 $acemod_crisis_manager_unobtainable$\ndlc002 $acemod_crisis_manager_dlc_check_arachnoid$ [global_event_country.GetName_acemod_crisis_manager_dlc_check_arachnoid]\ndlc003 $acemod_crisis_manager_dlc_check_paradox_account_sign_up_bonus$ 404 $acemod_crisis_manager_unobtainable$\ndlc004 $PLANTOID_TITLE$ [global_event_country.GetName_acemod_acemod_crisis_manager_dlc_check_host_plantoid]\ndlc010 $acemod_crisis_manager_dlc_check_creaturs_of_the_void$ [global_event_country.GetName_acemod_crisis_manager_dlc_check_creaturs_of_the_void]\ndlc011 $acemod_crisis_manager_dlc_original_game_soundtrack$ 404 $acemod_crisis_manager_unobtainable$\ndlc012 $LEVIATHANS_TITLE$ [global_event_country.GetName_acemod_acemod_crisis_manager_dlc_check_host_leviathans]\ndlc013 $acemod_crisis_manager_dlc_horizon_signal$ [global_event_country.GetName_acemod_crisis_manager_dlc_horizon_signal]\ndlc014 $UTOPIA_TITLE$ [global_event_country.GetName_acemod_acemod_crisis_manager_dlc_check_host_utopia]\ndlc015 $ANNIVERSARY_TITLE$ [global_event_country.GetName_acemod_acemod_crisis_manager_dlc_check_anniversary_portraits]\ndlc016 $SYNTHETIC_DAWN_TITLE$ [global_event_country.GetName_acemod_acemod_crisis_manager_dlc_check_host_synthetic_dawn]\ndlc017 $APOCALYPSE_TITLE$ [global_event_country.GetName_acemod_acemod_crisis_manager_dlc_check_apocalypse]\ndlc018 $HUMANOIDS_TITLE$ [global_event_country.GetName_acemod_acemod_crisis_manager_dlc_check_host_humanoids]\ndlc019 $DISTANT_STARS_TITLE$ [global_event_country.GetName_acemod_acemod_crisis_manager_dlc_check_host_distant_stars]\ndlc020 $MEGACORP_TITLE$ [global_event_country.GetName_acemod_acemod_crisis_manager_dlc_check_host_megacorp]\ndlc021 $ANCIENT_RELICS_TITLE$ [global_event_country.GetName_acemod_acemod_crisis_manager_dlc_check_host_ancient_relics]\ndlc022 $LITHOIDS_TITLE$ [global_event_country.GetName_acemod_acemod_crisis_manager_dlc_check_host_lithoids]\ndlc023 $FEDERATIONS_TITLE$ [global_event_country.GetName_acemod_acemod_crisis_manager_dlc_check_host_federations]\ndlc024 $NECROIDS_TITLE$ [global_event_country.GetName_acemod_acemod_crisis_manager_dlc_check_host_necroids]$acemod_crisis_manager_dlc_check_post_2020$"
-  acemod_crisis_manager_dlc_check_symbols_of_domination: "Symbols of Domination"
+  acemod_crisis_manager_dlc_check_symbols_of_domination: "Symboles de Domination"
   acemod_crisis_manager_dlc_check_arachnoid: "Arachnoid Portrait Pack"
   acemod_crisis_manager_dlc_check_paradox_account_sign_up_bonus: "Paradox Account Sign-up Bonus"
   acemod_crisis_manager_dlc_check_creaturs_of_the_void: "Creatures of the Void Portrait Pack"

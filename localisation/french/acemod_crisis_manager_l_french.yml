@@ -1,26 +1,26 @@
-﻿l_french:
-
+---
+l_english:
   #Menu------------------------------------
   acemod_crisis_manager_name: "Aggressive Crisis Engine"
   acemod_crisis_manager.1.name: "$acemod_crisis_manager_name$: $acemod_crisis_manager_name_singular$"
-  acemod_crisis_manager.1.desc: "$SETTINGS$ for §R$CRISIS_FACTOR$§!. They can be changed at any point during the game from this menu.\n\nThis §BCrisis Manager§! does not change game files and has to be §G$ACTIVE$§! for it to work, except for §W£mod_army_damage_mult£ $ARMY_POWER_HEADER$ $MODIFIER$§! and §W$DISABLE$ $GAME_SPEED_4$ $CRISIS_FACTOR$§! settings, which are always §G$ACTIVE$§!.\n\nData from the Manager and its dignostics tools is stored in a save, most of it is accessible through §WDebugging tools§! window. Manager records when and what crisis it has spawned."
-  acemod_crisis_manager.1.a: "§B$acemod_crisis_manager_name_singular$§! is [global_event_country.GetName_acemod_crisis_manager_active]"
-  acemod_crisis_manager.1.a.tooltip: "Enables or disables §BCrisis Manager§!."
-  acemod_crisis_manager.1.y: "§EDebugging tools§!"
-  acemod_crisis_manager.1.y.tooltip: "Shows expansive data on game and mod setup."
+  acemod_crisis_manager.1.desc: "$SETTINGS$ pour §R$CRISIS_FACTOR$§!. Ils peuvent être changés à tout moment en cours de jeu depuis ce menu.\n\nCe §BCrisis Manager§! ne change pas les fichiers du jeu et doit être §G$ACTIVE$§! pour fonctionner, sauf pour les paramètres §W£mod_army_damage_mult£ $ARMY_POWER_HEADER$ $MODIFIER$§! et §W$DISABLE$ $GAME_SPEED_4$ $CRISIS_FACTOR$§!, qui sont toujours §G$ACTIVE$§!.\n\nLes données du Gestionnaires et ses outils de diagnostics sont stockés dans la sauvegarde, la plupart étant accessible via la fenêtre des §WDebugging tools§!. Le Gestionnaire enregistre quand et quelle Crise est générée."
+  acemod_crisis_manager.1.a: "§B$acemod_crisis_manager_name_singular$§! est [global_event_country.GetName_acemod_crisis_manager_active]"
+  acemod_crisis_manager.1.a.tooltip: "Active ou désactive §BCrisis Manager§!."
+  acemod_crisis_manager.1.y: "§EOutils de débogage§!"
+  acemod_crisis_manager.1.y.tooltip: "Affiche de nombreuses informations sur la configuration du jeu et du mod."
   acemod_crisis_manager.1.z: "§Y$SAVE$§!"
-  acemod_crisis_manager.1.z.tooltip: "Back to main menu."
+  acemod_crisis_manager.1.z.tooltip: "Retour au menu principal."
   acemod_crisis_manager_trigger_yes: "§G$ACTIVE$§!"
   acemod_crisis_manager_trigger_no: "§R$NOT_ACTIVE$§!"
   acemod_crisis_manager_trigger_pass: "£trigger_yes£"
   acemod_crisis_manager_trigger_fail: "£trigger_no£"
-  acemod_crisis_manager_name_singular: "Crisis Manager"
-  acemod_crisis_manager_name_plural: "Crisis managers"
+  acemod_crisis_manager_name_singular: "Gestionnaire de Crises"
+  acemod_crisis_manager_name_plural: "Gestionnaires de Crises"
   #Galaxy Settings------------------------------------
   acemod_crisis_manager_blank: ""
-  acemod_crisis_manager_unobtainable: "Unobtainable"
+  acemod_crisis_manager_unobtainable: "Impossible à obtenir"
   acemod_crisis_manager.4.name: "$GALAXY_SETTINGS$"
-  acemod_crisis_manager.4.desc: "[global_event_country.GetName_acemod_crisis_manager_var_country_achievements_disabled]\n$FE_IRONMAN$: [global_event_country.GetName_acemod_crisis_manager_is_ironman]\nMultiplayer: [global_event_country.GetName_acemod_crisis_manager_is_multiplayer]\n[global_event_country.GetName_acemod_crisis_manager_var_country_is_checksum_modified]\n$OUTLINER_PLAYER_COUNTRIES$: $acemod_crisis_manager_var_country_num_human_players_start$ ($START$), $acemod_crisis_manager_var_country_num_human_players_live$ ($SOCIAL_DSTATUS_PLAYING$)\n$acemod_crisis_manager_var_country_num_systems$\n$acemod_crisis_manager_var_country_num_empires$\n$acemod_crisis_manager_var_country_num_advanced_empires$\n$acemod_crisis_manager_var_country_num_fallen_empires$\n$acemod_crisis_manager_var_country_num_marauder_empires$\n$acemod_crisis_manager_var_country_mid_game_year$\n$acemod_crisis_manager_var_country_end_game_year$\n$acemod_crisis_manager_var_country_victory_year$\n$acemod_crisis_manager_var_country_num_guaranteed_colonies$\n$acemod_crisis_manager_var_country_num_gateways$\n$acemod_crisis_manager_var_country_num_wormhole_pairs$\n$acemod_crisis_manager_var_country_num_hyperlanes$\n$acemod_crisis_manager_var_country_habitable_worlds_scale$\n$acemod_crisis_manager_var_country_primitive_worlds_scale$\n$acemod_crisis_manager_var_country_crisis_strength_scale$\n$acemod_crisis_manager_var_country_tech_costs_scale$\n$acemod_crisis_manager_var_country_is_difficulty$\n$acemod_crisis_manager_var_country_caravaneers_enabled$\n$acemod_crisis_manager_var_country_xeno_compatibility_enabled$\n$acemod_crisis_manager_var_country_setup_scenario$\n$acemod_crisis_manager_var_country_scaling_difficulty$\n$acemod_crisis_manager_var_country_scaling_aggressiveness$\n$acemod_crisis_manager_var_country_advanced_neighbors$\n$acemod_crisis_manager_var_country_empire_placement$\n$acemod_crisis_manager_dlc_check$"
+  acemod_crisis_manager.4.desc: "[global_event_country.GetName_acemod_crisis_manager_var_country_achievements_disabled]\n$FE_IRONMAN$: [global_event_country.GetName_acemod_crisis_manager_is_ironman]\nMultijoueurs: [global_event_country.GetName_acemod_crisis_manager_is_multiplayer]\n[global_event_country.GetName_acemod_crisis_manager_var_country_is_checksum_modified]\n$OUTLINER_PLAYER_COUNTRIES$: $acemod_crisis_manager_var_country_num_human_players_start$ ($START$), $acemod_crisis_manager_var_country_num_human_players_live$ ($SOCIAL_DSTATUS_PLAYING$)\n$acemod_crisis_manager_var_country_num_systems$\n$acemod_crisis_manager_var_country_num_empires$\n$acemod_crisis_manager_var_country_num_advanced_empires$\n$acemod_crisis_manager_var_country_num_fallen_empires$\n$acemod_crisis_manager_var_country_num_marauder_empires$\n$acemod_crisis_manager_var_country_mid_game_year$\n$acemod_crisis_manager_var_country_end_game_year$\n$acemod_crisis_manager_var_country_victory_year$\n$acemod_crisis_manager_var_country_num_guaranteed_colonies$\n$acemod_crisis_manager_var_country_num_gateways$\n$acemod_crisis_manager_var_country_num_wormhole_pairs$\n$acemod_crisis_manager_var_country_num_hyperlanes$\n$acemod_crisis_manager_var_country_habitable_worlds_scale$\n$acemod_crisis_manager_var_country_primitive_worlds_scale$\n$acemod_crisis_manager_var_country_crisis_strength_scale$\n$acemod_crisis_manager_var_country_tech_costs_scale$\n$acemod_crisis_manager_var_country_is_difficulty$\n$acemod_crisis_manager_var_country_caravaneers_enabled$\n$acemod_crisis_manager_var_country_xeno_compatibility_enabled$\n$acemod_crisis_manager_var_country_setup_scenario$\n$acemod_crisis_manager_var_country_scaling_difficulty$\n$acemod_crisis_manager_var_country_scaling_aggressiveness$\n$acemod_crisis_manager_var_country_advanced_neighbors$\n$acemod_crisis_manager_var_country_empire_placement$\n$acemod_crisis_manager_dlc_check$"
   acemod_crisis_manager.4.a: "$MESSAGE_OK$"
   acemod_crisis_manager.4.a.tooltip: "$CLOSE$"
   acemod_crisis_manager_checksum_vanilla: "$CHECKSUM$ $SETTINGS_VOICE_TYPE_default_advisor_voice_type$"
@@ -113,7 +113,7 @@
   acemod_crisis_manager.1.e: "§M$name_list_Extradimensional$§!: [global_event_country.GetName_acemod_crisis_manager_var_country_extradimensional_spawn_time][global_event_country.acemod_crisis_manager_var_country_extradimensional_spawn_time] $YEARS$"
   acemod_crisis_manager.1.e.tooltip: "$acemod_crisis_manager_base$\n\n$acemod_crisis_manager_menu_extradimensional_1_info$"
   acemod_crisis_manager_menu_extradimensional_spawn: "$acemod_crisis_manager_base$"
-  acemod_crisis_manager_menu_extradimensional_1_info: "§RNote§!:\n§H$extradimensional_invasion_chain_2_title$§! automatically spawn when §M$crisis.1007.name$§! control 15% of the systems. §E$extradimensional_invasion_chain_3_title$§! spawn within few years after §H$extradimensional_invasion_chain_2_title$§!."
+  acemod_crisis_manager_menu_extradimensional_1_info: "§RNote§!:\n§H$extradimensional_invasion_chain_2_title$§! apparaît automatiquement quand §M$crisis.1007.name$§! contrôle 15% des systèmes. §E$extradimensional_invasion_chain_3_title$§! apparaît quelques années après §H$extradimensional_invasion_chain_2_title$§!."
   #Contingency spawn------------------------------------
   acemod_crisis_manager.1.f: "§R$ai_crisis_chain_title$§!: [global_event_country.GetName_acemod_crisis_manager_var_country_contingency_spawn_time][global_event_country.acemod_crisis_manager_var_country_contingency_spawn_time] $YEARS$"
   acemod_crisis_manager.1.f.tooltip: "$acemod_crisis_manager_base$"
@@ -122,18 +122,18 @@
   acemod_crisis_manager.1.j: "§H$extradimensional_invasion_chain_2_title$§!: [global_event_country.GetName_acemod_crisis_manager_var_country_aberrant_spawn_time][global_event_country.acemod_crisis_manager_var_country_aberrant_spawn_time] $YEARS$"
   acemod_crisis_manager.1.j.tooltip: "$acemod_crisis_manager_base$\n\n$acemod_crisis_manager_menu_extradimensional_2_info$ \n\n$acemod_crisis_manager_menu_extradimensional_1_info$"
   acemod_crisis_manager_menu_aberrant_spawn: "$acemod_crisis_manager_base$"
-  acemod_crisis_manager_menu_extradimensional_2_info: "§B$AND_TRIGGER_STARTS$:§!\n[global_event_country.GetName_acemod_crisis_manager_extradimensional_base_compare] $IS_NOT_STRING$: §M$name_list_Extradimensional$§! $YEARS$ value equal to §R$BASE$§!.\n[global_event_country.GetName_acemod_crisis_manager_extradimensional_aberrant_compare] $IS_STRING$: §H$extradimensional_invasion_chain_2_title$§! $YEARS$ value equal to or $VALUE_GREATER_THAN$value of §M$name_list_Extradimensional$§! $YEARS$.\n[global_event_country.GetName_acemod_crisis_manager_extradimensional_invasion_defeated_reverse] $IS_NOT_STRING$: $name_list_Extradimensional$ $crisis.1271.name$."
+  acemod_crisis_manager_menu_extradimensional_2_info: "§B$AND_TRIGGER_STARTS$:§!\n[global_event_country.GetName_acemod_crisis_manager_extradimensional_base_compare] $IS_NOT_STRING$: §M$name_list_Extradimensional$§! $YEARS$ valeur égale à §R$BASE$§!.\n[global_event_country.GetName_acemod_crisis_manager_extradimensional_aberrant_compare] $IS_STRING$: §H$extradimensional_invasion_chain_2_title$§! $YEARS$ valeur égale ou $VALUE_GREATER_THAN$ la valeur de §M$name_list_Extradimensional$§! $YEARS$.\n[global_event_country.GetName_acemod_crisis_manager_extradimensional_invasion_defeated_reverse] $IS_NOT_STRING$: $name_list_Extradimensional$ $crisis.1271.name$."
   #Vehement spawn------------------------------------
   acemod_crisis_manager.1.k: "§E$extradimensional_invasion_chain_3_title$§!: [global_event_country.GetName_acemod_crisis_manager_var_country_vehement_spawn_time][global_event_country.acemod_crisis_manager_var_country_vehement_spawn_time] $YEARS$"
   acemod_crisis_manager.1.k.tooltip: "$acemod_crisis_manager_base$\n\n$acemod_crisis_manager_menu_extradimensional_3_info$ \n\n$acemod_crisis_manager_menu_extradimensional_1_info$"
   acemod_crisis_manager_menu_vehement_spawn: "$acemod_crisis_manager_base$"
-  acemod_crisis_manager_menu_extradimensional_3_info: "§B$AND_TRIGGER_STARTS$:§!\n[global_event_country.GetName_acemod_crisis_manager_extradimensional_base_compare] $IS_NOT_STRING$: §M$name_list_Extradimensional$§! $YEARS$ value equal to §R$BASE$§!.\n[global_event_country.GetName_acemod_crisis_manager_aberrant_base_compare] $IS_NOT_STRING$: §H$extradimensional_invasion_chain_2_title$§! $YEARS$ value equal to §R$BASE$§!.\n[global_event_country.GetName_acemod_crisis_manager_extradimensional_vehement_compare] $IS_STRING$: §E$extradimensional_invasion_chain_3_title$§! $YEARS$ value equal to or $VALUE_GREATER_THAN$value of §M$name_list_Extradimensional$§! $YEARS$.\n[global_event_country.GetName_acemod_crisis_manager_aberrant_vehement_compare] $IS_STRING$: §E$extradimensional_invasion_chain_3_title$§! $YEARS$ value equal to or $VALUE_GREATER_THAN$value of §H$extradimensional_invasion_chain_2_title$§! $YEARS$.\n[global_event_country.GetName_acemod_crisis_manager_extradimensional_invasion_defeated_reverse] $IS_NOT_STRING$: $name_list_Extradimensional$ $crisis.1271.name$."
+  acemod_crisis_manager_menu_extradimensional_3_info: "§B$AND_TRIGGER_STARTS$:§!\n[global_event_country.GetName_acemod_crisis_manager_extradimensional_base_compare] $IS_NOT_STRING$: §M$name_list_Extradimensional$§! $YEARS$ valeur égale à §R$BASE$§!.\n[global_event_country.GetName_acemod_crisis_manager_aberrant_base_compare] $IS_NOT_STRING$: §H$extradimensional_invasion_chain_2_title$§! $YEARS$ valeur égale à §R$BASE$§!.\n[global_event_country.GetName_acemod_crisis_manager_extradimensional_vehement_compare] $IS_STRING$: §E$extradimensional_invasion_chain_3_title$§! $YEARS$ valeur égale ou $VALUE_GREATER_THAN$ la valeur de §M$name_list_Extradimensional$§! $YEARS$.\n[global_event_country.GetName_acemod_crisis_manager_aberrant_vehement_compare] $IS_STRING$: §E$extradimensional_invasion_chain_3_title$§! $YEARS$ valeur égale ou $VALUE_GREATER_THAN$ la valeur de §H$extradimensional_invasion_chain_2_title$§! $YEARS$.\n[global_event_country.GetName_acemod_crisis_manager_extradimensional_invasion_defeated_reverse] $IS_NOT_STRING$: $name_list_Extradimensional$ $crisis.1271.name$."
   #Skip Mean Time To Happen MTTH Prethoryn spawn------------------------------------
   acemod_crisis_manager.1.h: "$GAME_SPEED_4$ $name_list_Prethoryn$ $GROUND_COMBAT$ $START$ - [global_event_country.GetName_acemod_crisis_manager_prethoryn_spawn_skip_mtth_disabled]"
-  acemod_crisis_manager.1.h.tooltip: "Skip Prethoryn arrival wait of 600 months MTTH (Mean Time To Happen)."
+  acemod_crisis_manager.1.h.tooltip: "Ignorer le délai d'arrivée des Prethoryn (délai moyen de 600 mois)."
   #Disable Default endgame early start triggers------------------------------------
   acemod_crisis_manager.1.l: "(§G$SETTINGS$ $ACTIVE$§!) $DISABLE$ $GAME_SPEED_4$ $CRISIS_FACTOR$ - [global_event_country.GetName_acemod_crisis_manager_disable_default_endgame_early_start_triggers]"
-  acemod_crisis_manager.1.l.tooltip: "$DISABLE$ $CRISIS_FACTOR$ spawn chance when $FE_END_GAME$ is reached $AND$ early $CRISIS_FACTOR$ start triggers are met, such as $TECH_IS_DANGEROUS$ is researched.\n\nCannot switch off after $FE_END_GAME$ $AND$ when crisis rolled!"
+  acemod_crisis_manager.1.l.tooltip: "$DISABLE$ $CRISIS_FACTOR$ chances d'apparition quand $FE_END_GAME$ est atteint $AND$ que les déclencheurs initiaux de $CRISIS_FACTOR$ sont activés, tel que lorsque $TECH_IS_DANGEROUS$ est recherché.\n\nNe peut pas être désactivé après $FE_END_GAME$ $AND$ quand la Crise s'est déclenchée !"
   #Crisis Armies Strength Multiplier------------------------------------
   acemod_crisis_manager.1.i: "(§G$SETTINGS$ $ACTIVE$§!) $acemod_lib_menu.1.g$"
   acemod_crisis_manager.1.i.tooltip: "$acemod_lib_menu.1.g.tooltip$"
@@ -142,7 +142,7 @@
   acemod_crisis_manager.1.w.tooltip: "§B$acemod_crisis_manager_name_singular$§!:\n$RESET_DEFAULT_TOOLTIP$."
   #Immediate crisis spawn menu------------------------------------
   acemod_crisis_manager.1.m: "§E$acemod_crisis_manager.1.m_plain$§!"
-  acemod_crisis_manager.1.m.tooltip: "$START$ $CRISIS_FACTOR$ event chain."
+  acemod_crisis_manager.1.m.tooltip: "$START$ la chaîne d'événements de $CRISIS_FACTOR$."
   acemod_crisis_manager.1.m_plain: "$START$ $CRISIS_FACTOR$"
   acemod_crisis_manager.12.name: "$acemod_crisis_manager.1.m_plain$"
   acemod_crisis_manager.12.desc: "Instant spawn options for §R$CRISIS_FACTOR$§!. You can §Bforce trigger§! more than one crisis type but each one only once."

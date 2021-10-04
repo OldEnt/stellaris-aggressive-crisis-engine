@@ -1,7 +1,7 @@
-﻿l_russian:
-
+---
+l_english:
   #Original English text by Rodahtnov
-  #Prethoryn Scourge l_russian:---------------------------------
+  #Prethoryn Scourge ------------------------------------
   tech_acemod_crisis_swarm_1: "Анализ Преторианцев"
   tech_acemod_crisis_swarm_1_desc: "Зондирование и экстракция образцов ткани Преторианцев мы можем узнать больше о том как эта странная экзогалактическая форма жизни функционирует и как обратить вспять заражение.\n\n"
   tech_acemod_crisis_swarm_2: "Анти-Преторианский растворитель спор"
@@ -138,7 +138,7 @@
   acemod_menu.2.b: "$MERGE$ $crisis_empire_base$ $FLEETS$ - [global_event_country.GetName_acemod_fleet_mergers_disabled]"
   acemod_menu.2.b.tooltip: "Включает или выключает объединение флота.\nПо умолчанию: §G$ACTIVE$§!\n\nФлоты кризиса объединяются при определённых условиях, например если начинают проигрывать."
   acemod_menu.2.c: "$JUMP_DRIVE_1$ - [global_event_country.GetName_acemod_global_flag_jumpdrive_order_disabled]"
-  acemod_menu.2.c.tooltip: "Enables or disables crisis use of $JUMP_DRIVE_1$.\nDefault: §G$ACTIVE$§!\n\n§M$name_list_Extradimensional$§! fleets use Jump Drives to attack valuable targets."
+  acemod_menu.2.c.tooltip: "Разрешает или запрещает кризису использовать $JUMP_DRIVE_1$.\nСтандарт: §G$ACTIVE$§!\n\n§M$name_list_Extradimensional$§! использует прыжковые двигатели для нападения на ценные незащищённые цели."
   acemod_menu.2.z: "§Y$SAVE$§!"
   acemod_menu.2.z.tooltip: "Вернуться в главное меню."
   #Colossus-----------------------------------

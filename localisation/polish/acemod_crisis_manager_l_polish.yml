@@ -1,5 +1,5 @@
-﻿l_polish:
-
+---
+l_english:
   #Menu------------------------------------
   acemod_crisis_manager_name: "System Agresywnych Kryzysów"
   acemod_crisis_manager.1.name: "$acemod_crisis_manager_name$: $acemod_crisis_manager_name_singular$"
@@ -195,7 +195,7 @@
   #Play as crisis menu------------------------------------
   acemod_crisis_manager.1.n: "§E$acemod_crisis_manager.1.n_plain$§!"
   acemod_crisis_manager.1.n_plain: "$PLAY$ $CRISIS_FACTOR$"
-  acemod_crisis_manager.1.n.tooltip: "Switch play to a $CRISIS_FACTOR$."
+  acemod_crisis_manager.1.n.tooltip: "Przełącz grę na $CRISIS_FACTOR$."
   acemod_crisis_manager.13.z: "§Y$SAVE$§!"
   acemod_crisis_manager.13.z.tooltip: "$PLAY$."
   acemod_crisis_manager.13.name: "$acemod_menu_name$: $acemod_crisis_manager.1.n_plain$"

@@ -1,6 +1,6 @@
-﻿l_polish:
-
-  #Menul_polish:l_polish:------------------------------
+---
+l_english:
+  #Menu------------------------------------
   acemod_crisis_manager_name: "System Agresywnych Kryzysów"
   acemod_crisis_manager.1.name: "$acemod_crisis_manager_name$: $acemod_crisis_manager_name_singular$"
   acemod_crisis_manager.1.desc: "$SETTINGS$ dla Kryzysów galaktycznych. Można je zmienić w każdym momencie gry z tego menu.\n\nTen §B$acemod_crisis_manager_name_singular$§! nie modyfikuje plików gry i musi być §Gaktywny§! żeby działał. Ustawienia w opcjach §W£mod_army_damage_mult£ $ARMY_POWER_HEADER$ $MODIFIER$§! oraz §W$DISABLE$ szybki $CRISIS_FACTOR$§! są zawsze aplikowane do bierzącej gry.\n\nDane z Menedżera i jego narzędzi diagnostycznych są składowane w zapisie gry. Większość z nich jest dostępna bezpośrednio z okien §WNarzędzi diagnostycznych§!. Menedżer zapisuje kiedy i jakiego typu §R$CRISIS_FACTOR$§! on wymusił."
@@ -74,7 +74,7 @@
   acemod_crisis_manager_dlc_horizon_signal: "Horizon Signal"
   acemod_crisis_manager_dlc_horizon_signal_trigger: "412 Osiągalne kiedy wydarzenie jest aktywne"
   #Continuation for DLCs released in 2021 and later
-  acemod_crisis_manager_dlc_check_post_2020: "\ndlc025 $NEMESIS_TITLE$ [global_event_country.GetName_acemod_acemod_crisis_manager_dlc_check_host_nemesis]\ndlc026 $AQUATICS_TITLE$ [global_event_country.GetName_acemod_acemod_crisis_manager_dlc_check_host_aquatics]"
+  acemod_crisis_manager_dlc_check_post_2020: "\ndlc025 $NEMESIS_TITLE$ [global_event_country.GetName_acemod_acemod_crisis_manager_dlc_check_host_nemesis]\ndlc026 $AQUATICS_TITLE$ [global_event_country.GetName_acemod_acemod_crisis_manager_dlc_check_host_aquatics]\ndlc027 $OVERLORD_TITLE$ [global_event_country.GetName_acemod_acemod_crisis_manager_dlc_check_host_overlord]"
   #Game Debugging tool------------------------------------
   acemod_crisis_manager_degug_non: "Debugowanie gry"
   acemod_crisis_manager.7.name: "Debugowanie gry"

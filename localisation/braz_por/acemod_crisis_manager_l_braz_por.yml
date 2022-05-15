@@ -1,6 +1,6 @@
-﻿l_braz_por:
-
-  #Menul_braz_por:l_braz_por:------------------------------
+---
+l_english:
+  #Menu------------------------------------
   acemod_crisis_manager_name: "Aggressive Crisis Engine"
   acemod_crisis_manager.1.name: "$acemod_crisis_manager_name$: $acemod_crisis_manager_name_singular$"
   acemod_crisis_manager.1.desc: "$SETTINGS$ for §R$CRISIS_FACTOR$§!. They can be changed at any point during the game from this menu.\n\nThis §BCrisis Manager§! does not change game files and has to be §G$ACTIVE$§! for it to work, except for §W£mod_army_damage_mult£ $ARMY_POWER_HEADER$ $MODIFIER$§! and §W$DISABLE$ $GAME_SPEED_4$ $CRISIS_FACTOR$§! settings, which are always §G$ACTIVE$§!.\n\nData from the Manager and its dignostics tools is stored in a save, most of it is accessible through §WDebugging tools§! window. Manager records when and what crisis it has spawned."
@@ -74,7 +74,7 @@
   acemod_crisis_manager_dlc_horizon_signal: "Horizon Signal"
   acemod_crisis_manager_dlc_horizon_signal_trigger: "412 Obtainable with active event"
   #Continuation for DLCs released in 2021 and later
-  acemod_crisis_manager_dlc_check_post_2020: "\ndlc025 $NEMESIS_TITLE$ [global_event_country.GetName_acemod_acemod_crisis_manager_dlc_check_host_nemesis]\ndlc026 $AQUATICS_TITLE$ [global_event_country.GetName_acemod_acemod_crisis_manager_dlc_check_host_aquatics]"
+  acemod_crisis_manager_dlc_check_post_2020: "\ndlc025 $NEMESIS_TITLE$ [global_event_country.GetName_acemod_acemod_crisis_manager_dlc_check_host_nemesis]\ndlc026 $AQUATICS_TITLE$ [global_event_country.GetName_acemod_acemod_crisis_manager_dlc_check_host_aquatics]\ndlc027 $OVERLORD_TITLE$ [global_event_country.GetName_acemod_acemod_crisis_manager_dlc_check_host_overlord]"
   #Game Debugging tool------------------------------------
   acemod_crisis_manager_degug_non: "Game Debug"
   acemod_crisis_manager.7.name: "Game Debug"

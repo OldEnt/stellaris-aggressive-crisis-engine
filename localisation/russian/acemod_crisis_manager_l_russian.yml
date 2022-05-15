@@ -1,6 +1,6 @@
-﻿l_russian:
-
-  #Menul_russian:l_russian:------------------------------
+---
+l_english:
+  #Menu------------------------------------
   acemod_crisis_manager_name: "Aggressive Crisis Engine"
   acemod_crisis_manager.1.name: "$acemod_crisis_manager_name$: $acemod_crisis_manager_name_singular$"
   acemod_crisis_manager.1.desc: "$SETTINGS$ §RГалактического Кризиса§! могут быть изменены в любой момент игры в этом меню.\n\n§BКризис Менеджер§! не меняет игровые файлы и должен быть §G$ON$§! чтобы работать. §W£mod_army_damage_mult£ $ARMY_POWER_HEADER$ $MODIFIER$§! и §W$DISABLE$ $GAME_SPEED_4$ $CRISIS_FACTOR$§! настроек, которые всегда §G$ON$$§!.\n\nДанные из Менеджера и инструменты его диагностики записаны в файле сохранения, большинство из них доступны через §WИнструменты отладки§!. Менеджер записывает когда и какой кризис появился."
@@ -74,7 +74,7 @@
   acemod_crisis_manager_dlc_horizon_signal: "Сигнал Горизонта"
   acemod_crisis_manager_dlc_horizon_signal_trigger: "412 Доступный с активным событием"
   #Continuation for DLCs released in 2021 and later
-  acemod_crisis_manager_dlc_check_post_2020: "\ndlc025 $NEMESIS_TITLE$ [global_event_country.GetName_acemod_acemod_crisis_manager_dlc_check_host_nemesis]\ndlc026 $AQUATICS_TITLE$ [global_event_country.GetName_acemod_acemod_crisis_manager_dlc_check_host_aquatics]"
+  acemod_crisis_manager_dlc_check_post_2020: "\ndlc025 $NEMESIS_TITLE$ [global_event_country.GetName_acemod_acemod_crisis_manager_dlc_check_host_nemesis]\ndlc026 $AQUATICS_TITLE$ [global_event_country.GetName_acemod_acemod_crisis_manager_dlc_check_host_aquatics]\ndlc027 $OVERLORD_TITLE$ [global_event_country.GetName_acemod_acemod_crisis_manager_dlc_check_host_overlord]"
   #Game Debugging tool------------------------------------
   acemod_crisis_manager_degug_non: "Отладка Игры"
   acemod_crisis_manager.7.name: "Отладка Игры"

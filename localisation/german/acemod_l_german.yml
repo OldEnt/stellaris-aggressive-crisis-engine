@@ -1,7 +1,7 @@
-﻿l_german:
-
+---
+l_english:
   #Original English text by Rodahtnov
-  #Prethoryn Scourge l_german:l_german:------------------------------
+  #Prethoryn Scourge ------------------------------------
   tech_acemod_crisis_swarm_1: "Prethoryn Lebensform-Analyse"
   tech_acemod_crisis_swarm_1_desc: "Durch die Fernsondierung und Extraktion von Prethoryn-Gewebe können wir mehr Einblicke in die Funktionsweise dieser seltsamen exogalaktischen Lebensform gewinnen und ihren Befall beseitigen.\n\n"
   tech_acemod_crisis_swarm_2: "Anti-Prethoryn Nanoroboter"
@@ -145,8 +145,7 @@
   acemod_menu.2.d.tooltip: "Enables or disables aggressive use of $JUMP_DRIVE_1$ by crises.\nDefault: §G$ACTIVE$§!\n\n§M$name_list_Extradimensional$§! fleets utilise Jump Drives to the full potential, whenever possible and suitable.\n\n$TRIGGER_REQUIRES$ $JUMP_DRIVE_1$ - §G$ACTIVE$§!"
   acemod_menu.2.z: "§Y$SAVE$§!"
   acemod_menu.2.z.tooltip: "Zurück zum Hauptmenü."
-  #Colossus-----------------------------------
-  NAME_ACEMOD_AI_COLOSSUS: "$CRISIS_TYPE_CONTINGENCY$ $colossus$"
+  NAME_ACEMOD_AI_COLOSSUS: "Contingency Colossus"
   acemod_ai_colossus: "$colossus$"
   acemod_ai_colossus_plural: "$colossus_plural$"
   SHIP_ACEMOD_AI_COLOSSUS_KEY: "$CRISIS_TYPE_CONTINGENCY$ $colossus$"
@@ -188,6 +187,26 @@
   acemod_ed_warship_point_defense_orange_section_template_key: "PLACEHOLDER"
   acemod_ed_warship_point_defense_green_section_template_key: "PLACEHOLDER"
   acemod_ai_carrier_warship_section_template_key: "PLACEHOLDER"
+  NAME_ACEMOD_Swarm_Spinal: "Swarm Spinal"
+  NAME_ACEMOD_Unbidden_Spectre: "Dimensional Spectre"
+  NAME_ACEMOD_Aberrant_Chaser: "Dimensional Chaser"
+  NAME_ACEMOD_Vehement_Exterminator: "Dimensional Exterminator"
+  NAME_ACEMOD_Contingency_Cleanser: "Contingency Cleanser"
+  NAME_ACEMOD_Swarm_Spinal_B1: "Swarm Spinal B1"
+  NAME_ACEMOD_Unbidden_Spectre_B1: "Dimensional Spectre B1"
+  NAME_ACEMOD_Aberrant_Chaser_B1: "Dimensional Chaser B1"
+  NAME_ACEMOD_Vehement_Exterminator_B1: "Dimensional Exterminator B1"
+  NAME_ACEMOD_Contingency_Cleanser_B1: "Contingency Cleanser B1"
+  NAME_ACEMOD_Swarm_Spinal_B2: "Swarm Spinal B2"
+  NAME_ACEMOD_Unbidden_Spectre_B2: "Dimensional Spectre B2"
+  NAME_ACEMOD_Aberrant_Chaser_B2: "Dimensional Chaser B2"
+  NAME_ACEMOD_Vehement_Exterminator_B2: "Dimensional Exterminator B2"
+  NAME_ACEMOD_Contingency_Cleanser_B2: "Contingency Cleanser B2"
+  NAME_ACEMOD_Swarm_Spinal_B3: "Swarm Spinal B3"
+  NAME_ACEMOD_Unbidden_Spectre_B3: "Dimensional Spectre B3"
+  NAME_ACEMOD_Aberrant_Chaser_B3: "Dimensional Chaser B3"
+  NAME_ACEMOD_Vehement_Exterminator_B3: "Dimensional Exterminator B3"
+  NAME_ACEMOD_Contingency_Cleanser_B3: "Contingency Cleanser B3"
   #Map mode-----------------------------------
   acemod_crises_map_mode: "$CRISIS_TYPE_LABEL$ Map Mode"
   acemod_crises_map_mode_desc: "Only crises will be colored."

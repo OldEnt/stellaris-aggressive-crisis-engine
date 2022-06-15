@@ -1,5 +1,5 @@
-﻿l_spanish:
-
+---
+l_english:
   #Original English text by Rodahtnov
   #Prethoryn Scourge ------------------------------------
   tech_acemod_crisis_swarm_1: "Análisis de Xenobiología Prethoryn"
@@ -145,8 +145,7 @@
   acemod_menu.2.d.tooltip: "Enables or disables aggressive use of $JUMP_DRIVE_1$ by crises.\nDefault: §G$ACTIVE$§!\n\n§M$name_list_Extradimensional$§! fleets utilise Jump Drives to the full potential, whenever possible and suitable.\n\n$TRIGGER_REQUIRES$ $JUMP_DRIVE_1$ - §G$ACTIVE$§!"
   acemod_menu.2.z: "§Y$SAVE$§!"
   acemod_menu.2.z.tooltip: "Menú Principal."
-  #Colossus-----------------------------------
-  NAME_ACEMOD_AI_COLOSSUS: "$CRISIS_TYPE_CONTINGENCY$ $colossus$"
+  NAME_ACEMOD_AI_COLOSSUS: "Contingency Colossus"
   acemod_ai_colossus: "$colossus$"
   acemod_ai_colossus_plural: "$colossus_plural$"
   SHIP_ACEMOD_AI_COLOSSUS_KEY: "$CRISIS_TYPE_CONTINGENCY$ $colossus$"

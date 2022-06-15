@@ -187,6 +187,7 @@ l_english:
   acemod_ed_warship_point_defense_orange_section_template_key: "EGZEMPLIFIKACJA"
   acemod_ed_warship_point_defense_green_section_template_key: "EGZEMPLIFIKACJA"
   acemod_ai_carrier_warship_section_template_key: "EGZEMPLIFIKACJA"
+  NAME_ACEMOD_AI_COLOSSUS: "Contingency Colossus"
   NAME_ACEMOD_Swarm_Spinal: "Swarm Spinal"
   NAME_ACEMOD_Unbidden_Spectre: "Dimensional Spectre"
   NAME_ACEMOD_Aberrant_Chaser: "Dimensional Chaser"

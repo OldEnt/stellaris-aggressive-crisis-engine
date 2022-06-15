@@ -1,5 +1,5 @@
----
-l_english:
+﻿l_polish:
+
   #Original English text by Rodahtnov
   #Prethoryn Scourge ------------------------------------
   tech_acemod_crisis_swarm_1: "Analiza pretorynowych form życia"
@@ -145,7 +145,8 @@ l_english:
   acemod_menu.2.d.tooltip: "Włącza lub wyłącza agresywne używanie Napędów Skokowych przez floty kryzysów.\nDomyślne: §G$ACTIVE$§!\n\n§M$name_list_Extradimensional$§! używają Napędów Skokowych kiedy tylko to możliwe i efektywne.\n\n$TRIGGER_REQUIRES$ $JUMP_DRIVE_1$ - §G$ACTIVE$§!"
   acemod_menu.2.z: "§Y$SAVE$§!"
   acemod_menu.2.z.tooltip: "Powrót do menu głównego."
-  NAME_ACEMOD_AI_COLOSSUS: "Contingency Colossus"
+  #Colossus-----------------------------------
+  NAME_ACEMOD_AI_COLOSSUS: "$colossus$ typu $CRISIS_TYPE_CONTINGENCY$"
   acemod_ai_colossus: "$colossus$"
   acemod_ai_colossus_plural: "$colossus_plural$"
   SHIP_ACEMOD_AI_COLOSSUS_KEY: "$colossus$ typu $CRISIS_TYPE_CONTINGENCY$"

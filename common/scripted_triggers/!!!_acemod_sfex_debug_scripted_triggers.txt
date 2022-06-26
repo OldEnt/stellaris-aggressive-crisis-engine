@@ -18,3 +18,8 @@ katzen_jump_blocked_system = {
 	# Dummy SFEX scripted_trigger. ALLOW OVERWRITE.
 	always = no
 }
+
+has_safety_off = {
+	# Merger of Rules scripted_trigger. ALLOW OVERWRITE.
+	has_global_flag = has_pk_safety_off
+}

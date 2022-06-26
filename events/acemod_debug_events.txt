@@ -458,5 +458,6 @@ event = {
 		set_leader_flag = acemod_aggressive_crisis_engine_menu_name_flag		# Dynamic Mod Menu 3.0
 		set_global_flag = dmm_installed		# Dynamic Mod Menu 3.0
 		set_leader_flag = dmm_display_exception_for_@prevprev
+		set_global_flag = has_pk_safety_off		# Safety Off for Planet Killer Weapons
 	}
 }

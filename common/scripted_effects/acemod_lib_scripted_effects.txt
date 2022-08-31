@@ -2,6 +2,7 @@
 # Crisis army strength menu option selector.
 # Scope: country
 acemod_lib_menu_country_acemod_lib_army_strength_modifier_option_selector = {
+	optimize_memory
 	event_target:global_event_country = {
 		# global_event country is always around
 		if = {
@@ -280,6 +281,7 @@ acemod_lib_menu_country_acemod_lib_army_strength_modifier_option_selector = {
 # Applies crisis strength multiplier to a country
 # Scope: country
 acemod_lib_reset_country_acemod_lib_army_strength_modifier = {
+	optimize_memory
 	remove_modifier = acemod_lib_army_strength_modifier_1_25
 	remove_modifier = acemod_lib_army_strength_modifier_1_50
 	remove_modifier = acemod_lib_army_strength_modifier_1_75

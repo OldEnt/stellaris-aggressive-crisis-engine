@@ -6,6 +6,7 @@
 # Prevents ACEMOD from piloting marked fleets.
 # Scope: fleet ship
 acemod_set_fleet_piloted_exclusion_on = {
+	optimize_memory
 	set_variable = {
 		which = acemod_var_fleet_piloted_exclusion
 		value = 1
@@ -15,6 +16,7 @@ acemod_set_fleet_piloted_exclusion_on = {
 # Resumes default operation.
 # Scope: fleet ship
 acemod_set_fleet_piloted_exclusion_off = {
+	optimize_memory
 	set_variable = {
 		which = acemod_var_fleet_piloted_exclusion
 		value = 0
@@ -24,6 +26,7 @@ acemod_set_fleet_piloted_exclusion_off = {
 # Prevents ACEMOD from piloting fleets of given country. Use this if you don't want vanilla crisis country to be piloted. See acemod_fleet.9 event.
 # Scope: country
 acemod_set_country_piloted_exclusion_on = {
+	optimize_memory
 	set_variable = {
 		which = acemod_var_country_piloted_exclusion
 		value = 1
@@ -34,6 +37,7 @@ acemod_set_country_piloted_exclusion_on = {
 # Removes exclusion *and* enables ACEMOD for given country. Does not activate global ACEMOD fleet AI (acemod_activated flag) if you had it off.
 # Scope: country
 acemod_set_country_piloted_exclusion_off = {
+	optimize_memory
 	set_variable = {
 		which = acemod_var_country_piloted_exclusion
 		value = 0
@@ -44,6 +48,7 @@ acemod_set_country_piloted_exclusion_off = {
 # Prevents ACEMOD technologies from rolling for given country (weight_modifier = 0). Overrides country technology_allowed flag.
 # Scope: country
 acemod_set_country_technology_exclusion_on = {
+	optimize_memory
 	set_variable = {
 		which = acemod_var_country_technology_exclusion
 		value = 1
@@ -53,6 +58,7 @@ acemod_set_country_technology_exclusion_on = {
 # Resumes default operation.
 # Scope: country
 acemod_set_country_technology_exclusion_off = {
+	optimize_memory
 	set_variable = {
 		which = acemod_var_country_technology_exclusion
 		value = 0
@@ -62,6 +68,7 @@ acemod_set_country_technology_exclusion_off = {
 # Prevents ACEMOD from issuing constructor reinforcements.
 # Scope: country
 acemod_set_country_constructor_reinforcements_exclusion_on = {
+	optimize_memory
 	set_variable = {
 		which = acemod_var_country_constructor_reinforcements_exclusion
 		value = 1
@@ -71,6 +78,7 @@ acemod_set_country_constructor_reinforcements_exclusion_on = {
 # Resumes default operation.
 # Scope: country
 acemod_set_country_constructor_reinforcements_exclusion_off = {
+	optimize_memory
 	set_variable = {
 		which = acemod_var_country_constructor_reinforcements_exclusion
 		value = 0
@@ -80,6 +88,7 @@ acemod_set_country_constructor_reinforcements_exclusion_off = {
 # Prevents ACEMOD from issuing defensive jumpdrive protocol.
 # Scope: country
 acemod_set_country_acemod_defensive_jumpdrive_protocol_exclusion_on = {
+	optimize_memory
 	set_variable = {
 		which = acemod_var_country_defensive_jumpdrive_protocol_exclusion
 		value = 1
@@ -89,6 +98,7 @@ acemod_set_country_acemod_defensive_jumpdrive_protocol_exclusion_on = {
 # Resumes default operation.
 # Scope: country
 acemod_set_country_acemod_defensive_jumpdrive_protocol_exclusion_off = {
+	optimize_memory
 	set_variable = {
 		which = acemod_var_country_defensive_jumpdrive_protocol_exclusion
 		value = 0
@@ -97,6 +107,7 @@ acemod_set_country_acemod_defensive_jumpdrive_protocol_exclusion_off = {
 
 # Scope: solar_system
 acemod_recalculate_solar_system_target_value = {
+	optimize_memory
 	set_variable = {
 		which = acemod_var_solar_system_target_value
 		value = 0
@@ -106,6 +117,7 @@ acemod_recalculate_solar_system_target_value = {
 
 # Scope: solar_system
 acemod_calculate_solar_system_target_value = {
+	optimize_memory
 	if = {
 		limit = {
 			exists = owner
@@ -145,6 +157,7 @@ acemod_calculate_solar_system_target_value = {
 
 # Scope: fleet
 acemod_response_effect = {
+	optimize_memory
 	set_timed_fleet_flag = {
 		flag = acemod_fleet_flag_response_team
 		days = 240
@@ -178,6 +191,7 @@ acemod_response_effect = {
 
 # Scope: planet, fleet, ship, ambient_object
 acemod_spawn_ai_colossus = {
+	optimize_memory
 	create_fleet = {
 		name = "NAME_ACEMOD_AI_COLOSSUS"
 		effect = {
@@ -219,6 +233,7 @@ acemod_spawn_ai_colossus = {
 
 # Scope: country. This effect minimalises error.log spam.
 acemod_dmm_add_button_exception = {
+	optimize_memory
 	if = {
 		limit = {
 			is_multiplayer = yes

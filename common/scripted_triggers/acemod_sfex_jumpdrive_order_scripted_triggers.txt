@@ -1,4 +1,5 @@
 acemod_sfex_max_distance_interstellar_scripted_trigger = {
+	optimize_memory
 	distance = {
 		source = $SOURCE$		# must be scope
 		max_distance <= $MAX_DISTANCE$		# must be integer
@@ -8,6 +9,7 @@ acemod_sfex_max_distance_interstellar_scripted_trigger = {
 }
 
 acemod_sfex_jumpdrive_order_has_ftl_drive_scripted_trigger = {
+	optimize_memory
 	OR = {
 		has_global_flag = acemod_sfex_jumpdrive_order_global_flag_has_ftl_drive_disabled
 		has_fleet_flag = acemod_sfex_jumpdrive_order_fleet_flag_ignore_has_ftl_drive
@@ -28,6 +30,7 @@ acemod_sfex_jumpdrive_order_has_ftl_drive_scripted_trigger = {
 }
 
 acemod_sfex_jumpdrive_order_target_in_range_scripted_trigger = {
+	optimize_memory
 	check_variable = {
 		which = acemod_sfex_fleet_order_var_jumpdrive_effective_range
 		value >= acemod_sfex_jumpdrive_order_var_distance_interstellar_measured
@@ -37,6 +40,7 @@ acemod_sfex_jumpdrive_order_target_in_range_scripted_trigger = {
 # can_enter_system_by_jump and can_jump_drive scripted triggers are from The Merger of Rules by Inny78 [The Merger] Mod SteamID: 2458836869
 # THIS = Fleet
 acemod_sfex_jumpdrive_order_can_jump_drive_scripted_trigger = {
+	optimize_memory
 	solar_system = {
 		NOR = {
 			has_star_flag = ag_no_jump_out_system
@@ -109,6 +113,7 @@ acemod_sfex_jumpdrive_order_can_jump_drive_scripted_trigger = {
 # Root = country attempting to target system for movement
 # This = system being targeted
 acemod_sfex_jumpdrive_order_can_enter_system_by_jump_scripted_trigger = {
+	optimize_memory
 	# custom_tooltip = {
 	# success_text = "debug: can jump"
 	# fail_text = cannot_jump_to_system

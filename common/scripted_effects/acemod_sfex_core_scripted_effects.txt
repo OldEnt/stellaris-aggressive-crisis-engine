@@ -1,5 +1,6 @@
 # Set up ACE SFEX Core Global Event Country.
 acemod_sfex_core_create_global_country_if_needed = {
+	optimize_memory
 	if = {
 		limit = {
 			NOT = {
@@ -52,6 +53,7 @@ acemod_sfex_core_create_global_country_if_needed = {
 # FLAG = unique flag across all mods
 # NAME = name displayed on the button
 acemod_sfex_core_register_name = {
+	optimize_memory
 	acemod_sfex_core_create_global_country_if_needed = yes	# Set up acemod_sfex Core Global Event Country.
 	event_target:acemod_sfex_core_global_country = {
 		if = {
@@ -78,6 +80,7 @@ acemod_sfex_core_register_name = {
 
 # FLAG = unique flag across all mods
 acemod_sfex_core_deregister_name = {
+	optimize_memory
 	acemod_sfex_core_create_global_country_if_needed = yes	# Set up acemod_sfex Core Global Event Country.
 	event_target:acemod_sfex_global_country = {
 		every_owned_leader = {
@@ -94,6 +97,7 @@ acemod_sfex_core_deregister_name = {
 
 # Main acemod_sfex_set_fleet_order effect.
 acemod_sfex_set_fleet_order = {
+	optimize_memory
 	[[ORDER]
 	set_timed_fleet_flag = {
 		flag = acemod_sfex_fleet_flag_$ORDER$_order
@@ -661,6 +665,7 @@ acemod_sfex_set_fleet_order = {
 }
 
 acemod_sfex_core_evaluate_scripted_triggers_and_jump_effect = {
+	optimize_memory
 	if = {
 		limit = {
 			acemod_sfex_jumpdrive_order_has_ftl_drive_scripted_trigger = yes
@@ -737,6 +742,7 @@ acemod_sfex_core_evaluate_scripted_triggers_and_jump_effect = {
 }
 
 acemod_sfex_set_fleet_order_jumpdrive = {
+	optimize_memory
 	acemod_sfex_set_fleet_order = {
 		ORDER = jumpdrive
 		[[MODNAME]
@@ -758,6 +764,7 @@ acemod_sfex_set_fleet_order_jumpdrive = {
 }
 
 acemod_sfex_set_fleet_order_build = {
+	optimize_memory
 	acemod_sfex_set_fleet_order = {
 		ORDER = build
 		[[MODNAME]
@@ -773,6 +780,7 @@ acemod_sfex_set_fleet_order_build = {
 }
 
 acemod_sfex_set_fleet_order_survey = {
+	optimize_memory
 	acemod_sfex_set_fleet_order = {
 		ORDER = survey
 		MODNAME = $MODNAME|acemod_sfex_set_fleet_order_survey$

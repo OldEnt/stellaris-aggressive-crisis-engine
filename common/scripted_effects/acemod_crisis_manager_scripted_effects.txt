@@ -1,5 +1,6 @@
 # Scope: country event_target:global_event_country
 acemod_crisis_manager_calculate_prethoryn_effect = {
+	optimize_memory
 	set_global_flag = acemod_crisis_manager_prethoryn_spawn_effect_fired
 	switch = {
 		trigger = end_game_years_passed
@@ -1970,6 +1971,7 @@ acemod_crisis_manager_calculate_prethoryn_effect = {
 }
 
 acemod_crisis_manager_calculate_extradimensional_effect = {
+	optimize_memory
 	set_global_flag = acemod_crisis_manager_extradimensional_spawn_effect_fired
 	switch = {
 		trigger = end_game_years_passed
@@ -3220,6 +3222,7 @@ acemod_crisis_manager_calculate_extradimensional_effect = {
 }
 
 acemod_crisis_manager_calculate_aberrant_effect = {
+	optimize_memory
 	set_global_flag = acemod_crisis_manager_aberrant_spawn_effect_fired
 	switch = {
 		trigger = end_game_years_passed
@@ -4710,6 +4713,7 @@ acemod_crisis_manager_calculate_aberrant_effect = {
 }
 
 acemod_crisis_manager_calculate_vehement_effect = {
+	optimize_memory
 	set_global_flag = acemod_crisis_manager_vehement_spawn_effect_fired
 	switch = {
 		trigger = end_game_years_passed
@@ -6160,6 +6164,7 @@ acemod_crisis_manager_calculate_vehement_effect = {
 }
 
 acemod_crisis_manager_calculate_contingency_effect = {
+	optimize_memory
 	set_global_flag = acemod_crisis_manager_contingency_spawn_effect_fired
 	switch = {
 		trigger = end_game_years_passed
@@ -7410,6 +7415,7 @@ acemod_crisis_manager_calculate_contingency_effect = {
 }
 
 acemod_crisis_manager_calculate_current_end_game_year = {
+	optimize_memory
 	event_target:global_event_country = {
 		switch = {
 			trigger = end_game_years_passed
@@ -13430,6 +13436,7 @@ acemod_crisis_manager_calculate_current_end_game_year = {
 }
 
 acemod_crisis_manager_calculate_current_game_year = {
+	optimize_memory
 	event_target:global_event_country = {
 		switch = {
 			trigger = years_passed
@@ -19451,6 +19458,7 @@ acemod_crisis_manager_calculate_current_game_year = {
 
 # Reset Crisis Manager settings.
 acemod_crisis_manager_reset_settings = {
+	optimize_memory
 	remove_global_flag = acemod_crisis_manager_active	# Disable Crisis Manager
 	remove_global_flag = acemod_crisis_manager_prethoryn_spawn_skip_mtth_disabled	# Enable Fast Prethoryn Invasion Start.
 	acemod_crisis_manager_reset_settings_script = yes	# For country firing menu effect.
@@ -19468,6 +19476,7 @@ acemod_crisis_manager_reset_settings = {
 }
 
 acemod_crisis_manager_reset_settings_script = {
+	optimize_memory
 	set_variable = {
 		which = acemod_crisis_manager_var_country_spawn_time_variable		# Change years variable.
 		value = 5
@@ -19499,6 +19508,7 @@ acemod_crisis_manager_reset_settings_script = {
 }
 
 acemod_crisis_manager_swap_play_as_crisis = {
+	optimize_memory
 	set_player = prev
 	set_country_flag = acemod_crisis_manager_country_flag_swap_play_as_crisis@prev
 	if = {

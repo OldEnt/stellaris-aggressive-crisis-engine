@@ -1,4 +1,5 @@
 acemod_sfex_jumpdrive_order_calculate_effective_range_effect = {
+	optimize_memory
 	set_variable = {
 		which = acemod_sfex_fleet_order_var_jumpdrive_effective_range
 		value = acemod_sfex_fleet_order_var_jumpdrive_custom_max_range_set
@@ -35,6 +36,7 @@ acemod_sfex_jumpdrive_order_calculate_effective_range_effect = {
 }
 
 acemod_sfex_jumpdrive_order_apply_cooldown_effect = {
+	optimize_memory
 	if = {
 		limit = {
 			NOR = {
@@ -83,6 +85,7 @@ acemod_sfex_jumpdrive_order_apply_cooldown_effect = {
 }
 
 acemod_sfex_jumpdrive_order_export_planets_in_system_distance_to_centre_point = {
+	optimize_memory
 	if = {
 		limit = {
 			NOT = {
@@ -110,10 +113,12 @@ acemod_sfex_jumpdrive_order_export_planets_in_system_distance_to_centre_point = 
 }
 
 acemod_sfex_jumpdrive_order_measure_origin_distance_set_var_storage_effect = {
+	optimize_memory
 	save_event_target_as = acemod_sfex_jumpdrive_order_var_measure_storage
 }
 
 acemod_sfex_jumpdrive_order_measure_origin_distance_to_target_save_var_to_fleet = {
+	optimize_memory
 	event_target:acemod_sfex_jumpdrive_order_var_measure_storage = {
 		export_trigger_value_to_variable = {
 			trigger = distance
@@ -128,6 +133,7 @@ acemod_sfex_jumpdrive_order_measure_origin_distance_to_target_save_var_to_fleet 
 }
 
 acemod_sfex_jumpdrive_order_measure_point_distance_to_centre_point = {
+	optimize_memory
 	export_trigger_value_to_variable = {
 		trigger = distance
 		variable = acemod_sfex_jumpdrive_order_var_distance_measured
@@ -140,6 +146,7 @@ acemod_sfex_jumpdrive_order_measure_point_distance_to_centre_point = {
 }
 
 acemod_sfex_jumpdrive_order_set_location = {
+	optimize_memory
 	if = {
 		limit = {
 			check_variable = {

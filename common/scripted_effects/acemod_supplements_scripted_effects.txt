@@ -1,4 +1,5 @@
 acemod_supplements_spawn_swarm = {
+	optimize_memory
 	every_owned_fleet = {
 		limit = {
 			is_ship_class = shipclass_military
@@ -22,6 +23,7 @@ acemod_supplements_spawn_swarm = {
 }
 
 acemod_supplements_spawn_ai_empire = {
+	optimize_memory
 	every_owned_fleet = {
 		limit = {
 			is_ship_class = shipclass_military
@@ -48,6 +50,7 @@ acemod_supplements_spawn_ai_empire = {
 }
 
 acemod_supplements_spawn_extradimensional = {
+	optimize_memory
 	every_owned_fleet = {
 		limit = {
 			is_ship_class = shipclass_military
@@ -74,6 +77,7 @@ acemod_supplements_spawn_extradimensional = {
 }
 
 acemod_supplements_spawn_extradimensional_2 = {
+	optimize_memory
 	every_owned_fleet = {
 		limit = {
 			is_ship_class = shipclass_military
@@ -100,6 +104,7 @@ acemod_supplements_spawn_extradimensional_2 = {
 }
 
 acemod_supplements_spawn_extradimensional_3 = {
+	optimize_memory
 	every_owned_fleet = {
 		limit = {
 			is_ship_class = shipclass_military

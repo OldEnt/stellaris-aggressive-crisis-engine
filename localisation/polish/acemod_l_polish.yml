@@ -1,5 +1,5 @@
-﻿l_polish:
-
+---
+l_english:
   #Original English text by Rodahtnov
   #Prethoryn Scourge ------------------------------------
   tech_acemod_crisis_swarm_1: "Analiza pretorynowych form życia"
@@ -145,8 +145,7 @@
   acemod_menu.2.d.tooltip: "Włącza lub wyłącza agresywne używanie Napędów Skokowych przez floty kryzysów.\nDomyślne: §G$ACTIVE$§!\n\n§M$name_list_Extradimensional$§! używają Napędów Skokowych kiedy tylko to możliwe i efektywne.\n\n$TRIGGER_REQUIRES$ $JUMP_DRIVE_1$ - §G$ACTIVE$§!"
   acemod_menu.2.z: "§Y$SAVE$§!"
   acemod_menu.2.z.tooltip: "Powrót do menu głównego."
-  #Colossus-----------------------------------
-  NAME_ACEMOD_AI_COLOSSUS: "$colossus$ typu $CRISIS_TYPE_CONTINGENCY$"
+  NAME_ACEMOD_AI_COLOSSUS: "Contingency Colossus"
   acemod_ai_colossus: "$colossus$"
   acemod_ai_colossus_plural: "$colossus_plural$"
   SHIP_ACEMOD_AI_COLOSSUS_KEY: "$colossus$ typu $CRISIS_TYPE_CONTINGENCY$"
@@ -188,7 +187,6 @@
   acemod_ed_warship_point_defense_orange_section_template_key: "EGZEMPLIFIKACJA"
   acemod_ed_warship_point_defense_green_section_template_key: "EGZEMPLIFIKACJA"
   acemod_ai_carrier_warship_section_template_key: "EGZEMPLIFIKACJA"
-  NAME_ACEMOD_AI_COLOSSUS: "Contingency Colossus"
   NAME_ACEMOD_Swarm_Spinal: "Swarm Spinal"
   NAME_ACEMOD_Unbidden_Spectre: "Dimensional Spectre"
   NAME_ACEMOD_Aberrant_Chaser: "Dimensional Chaser"

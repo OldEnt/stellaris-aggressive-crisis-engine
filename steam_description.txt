@@ -9,7 +9,7 @@ Vanilla AI is off for main crises and all fleet movements are mod scripted, this
 
 Dimensional Anchors are visible on galactic map.
 
-- Full support for Contingency, Prethoryn Scourge, Unbidden, Aberrant and Vehement. Optional for Gray Tempest, Katzenartig Imperium and other custom crises.
+- Full support for Contingency, Prethoryn Scourge, Unbidden, Aberrant and Vehement. Optional for Gray Tempest, Katzenartig Imperium ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=1121692237]Gigastructural Engineering[/url]), Overgrowth ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=2627609414]Fatal Foundations Story Pack[/url]) and other custom crises.
 - New custom pathfinding accounting for wormholes and gateways
 - Fleets are relentless and always seek targets.
 - Defensive fleet recall for Contingency worlds (optional).

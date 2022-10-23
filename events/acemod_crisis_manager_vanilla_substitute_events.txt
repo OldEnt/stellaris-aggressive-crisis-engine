@@ -11,7 +11,7 @@ country_event = {
 		NOT = {
 			has_global_flag = extradimensional_second_portal
 		}
-		# galaxy_percentage > 0.15
+		# endgame_crisis_large_size_trigger = yes
 	}
 	# mean_time_to_happen = {
 	# 	months = 12
@@ -155,7 +155,7 @@ country_event = {
 		NOT = {	has_global_flag = extradimensional_invasion_defeated } # ACE safeguard so it does not break.
 		# is_country_type = extradimensional
 		NOT = { has_global_flag = extradimensional_second_portal }
-		# galaxy_percentage > 0.15
+		# endgame_crisis_large_size_trigger = yes
 	}
 
 	# mean_time_to_happen = {

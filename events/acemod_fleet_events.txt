@@ -182,7 +182,7 @@ country_event = {
 					}
 				}
 			}
-			every_controlled_fleet = {
+			every_owned_fleet = {
 				limit = {
 					is_ship_class = shipclass_transport					# Make transports unfollow fleets so that the ACE orders can be issued.
 					NOT = {

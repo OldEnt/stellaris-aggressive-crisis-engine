@@ -107,6 +107,10 @@ country_event = {
 					}
 				}
 				set_global_flag = acemod_crisis_debuff_disabled
+				every_country = {
+					remove_country_flag = acemod_country_flag_crisis_debuff_modifier
+					remove_modifier = acemod_crisis_debuff_modifier
+				}
 				country_event = {
 					id = acemod_menu.1
 					days = 0
@@ -122,6 +126,10 @@ country_event = {
 					}
 				}
 				# remove_global_flag = acemod_crisis_debuff_disabled
+				every_country = {
+					remove_country_flag = acemod_country_flag_crisis_debuff_modifier
+					remove_modifier = acemod_crisis_debuff_modifier
+				}
 				country_event = {
 					id = acemod_menu.1
 					days = 0
@@ -151,6 +159,10 @@ country_event = {
 					}
 				}
 				set_global_flag = acemod_fallen_awakened_empire_debuff_disabled
+				every_country = {
+					remove_country_flag = acemod_country_flag_fallen_awakened_empire_debuff_modifier
+					remove_modifier = acemod_fallen_awakened_empire_debuff_modifier
+				}
 				country_event = {
 					id = acemod_menu.1
 					days = 0
@@ -166,6 +178,10 @@ country_event = {
 					}
 				}
 				# remove_global_flag = acemod_fallen_awakened_empire_debuff_disabled
+				every_country = {
+					remove_country_flag = acemod_country_flag_fallen_awakened_empire_debuff_modifier
+					remove_modifier = acemod_fallen_awakened_empire_debuff_modifier
+				}
 				country_event = {
 					id = acemod_menu.1
 					days = 0

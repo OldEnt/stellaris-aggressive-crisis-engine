@@ -22,6 +22,9 @@ country_event = {
 	id = acemod_core.1
 	hide_window = yes
 	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
 	trigger = {
 		is_ai = no
 	}

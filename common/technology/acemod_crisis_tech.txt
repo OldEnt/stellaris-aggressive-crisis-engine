@@ -43,13 +43,13 @@ tech_acemod_crisis_swarm_1 = {
 				}
 			}
 		}
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = society
-				has_trait = "leader_trait_expertise_biology"
-			}
-		}
+		# modifier = {
+		# 	factor = 1.25
+		# 	research_leader = {
+		# 		area = society
+		# 		has_trait = "leader_trait_expertise_biology"
+		# 	}
+		# }
 	}
 	ai_weight = {
 		weight = @acemod_ai_weight_priority
@@ -59,13 +59,13 @@ tech_acemod_crisis_swarm_1 = {
 				has_global_flag = prethoryn_invasion_happened
 			}
 		}
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = society
-				has_trait = "leader_trait_expertise_biology"
-			}
-		}
+		# modifier = {
+		# 	factor = 1.25
+		# 	research_leader = {
+		# 		area = society
+		# 		has_trait = "leader_trait_expertise_biology"
+		# 	}
+		# }
 	}
 }
 
@@ -112,13 +112,13 @@ tech_acemod_crisis_swarm_2 = {
 				}
 			}
 		}
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = society
-				has_trait = "leader_trait_expertise_biology"
-			}
-		}
+		# modifier = {
+		# 	factor = 1.25
+		# 	research_leader = {
+		# 		area = society
+		# 		has_trait = "leader_trait_expertise_biology"
+		# 	}
+		# }
 	}
 	ai_weight = {
 		weight = @acemod_ai_weight_priority
@@ -128,13 +128,13 @@ tech_acemod_crisis_swarm_2 = {
 				has_global_flag = prethoryn_invasion_happened
 			}
 		}
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = society
-				has_trait = "leader_trait_expertise_biology"
-			}
-		}
+		# modifier = {
+		# 	factor = 1.25
+		# 	research_leader = {
+		# 		area = society
+		# 		has_trait = "leader_trait_expertise_biology"
+		# 	}
+		# }
 	}
 }
 
@@ -181,13 +181,13 @@ tech_acemod_crisis_swarm_3 = {
 				}
 			}
 		}
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = society
-				has_trait = "leader_trait_expertise_biology"
-			}
-		}
+		# modifier = {
+		# 	factor = 1.25
+		# 	research_leader = {
+		# 		area = society
+		# 		has_trait = "leader_trait_expertise_biology"
+		# 	}
+		# }
 	}
 	ai_weight = {
 		weight = @acemod_ai_weight_priority
@@ -197,13 +197,13 @@ tech_acemod_crisis_swarm_3 = {
 				has_global_flag = prethoryn_invasion_happened
 			}
 		}
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = society
-				has_trait = "leader_trait_expertise_biology"
-			}
-		}
+		# modifier = {
+		# 	factor = 1.25
+		# 	research_leader = {
+		# 		area = society
+		# 		has_trait = "leader_trait_expertise_biology"
+		# 	}
+		# }
 	}
 }
 
@@ -256,13 +256,13 @@ tech_acemod_crisis_extradimensional_1 = {
 				}
 			}
 		}
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = physics
-				has_trait = "leader_trait_expertise_field_manipulation"
-			}
-		}
+		# modifier = {
+		# 	factor = 1.25
+		# 	research_leader = {
+		# 		area = physics
+		# 		has_trait = "leader_trait_expertise_field_manipulation"
+		# 	}
+		# }
 	}
 	ai_weight = {
 		weight = @acemod_ai_weight_priority
@@ -272,13 +272,13 @@ tech_acemod_crisis_extradimensional_1 = {
 				has_global_flag = extradimensional_invasion_happened
 			}
 		}
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = physics
-				has_trait = "leader_trait_expertise_field_manipulation"
-			}
-		}
+		# modifier = {
+		# 	factor = 1.25
+		# 	research_leader = {
+		# 		area = physics
+		# 		has_trait = "leader_trait_expertise_field_manipulation"
+		# 	}
+		# }
 	}
 }
 
@@ -331,13 +331,13 @@ tech_acemod_crisis_extradimensional_2 = {
 				}
 			}
 		}
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = physics
-				has_trait = "leader_trait_expertise_field_manipulation"
-			}
-		}
+		# modifier = {
+		# 	factor = 1.25
+		# 	research_leader = {
+		# 		area = physics
+		# 		has_trait = "leader_trait_expertise_field_manipulation"
+		# 	}
+		# }
 	}
 	ai_weight = {
 		weight = @acemod_ai_weight_priority
@@ -347,13 +347,13 @@ tech_acemod_crisis_extradimensional_2 = {
 				has_global_flag = extradimensional_invasion_happened
 			}
 		}
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = physics
-				has_trait = "leader_trait_expertise_field_manipulation"
-			}
-		}
+		# modifier = {
+		# 	factor = 1.25
+		# 	research_leader = {
+		# 		area = physics
+		# 		has_trait = "leader_trait_expertise_field_manipulation"
+		# 	}
+		# }
 	}
 }
 
@@ -406,13 +406,13 @@ tech_acemod_crisis_extradimensional_3 = {
 				}
 			}
 		}
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = physics
-				has_trait = "leader_trait_expertise_field_manipulation"
-			}
-		}
+		# modifier = {
+		# 	factor = 1.25
+		# 	research_leader = {
+		# 		area = physics
+		# 		has_trait = "leader_trait_expertise_field_manipulation"
+		# 	}
+		# }
 	}
 	ai_weight = {
 		weight = @acemod_ai_weight_priority
@@ -422,13 +422,13 @@ tech_acemod_crisis_extradimensional_3 = {
 				has_global_flag = extradimensional_invasion_happened
 			}
 		}
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = physics
-				has_trait = "leader_trait_expertise_field_manipulation"
-			}
-		}
+		# modifier = {
+		# 	factor = 1.25
+		# 	research_leader = {
+		# 		area = physics
+		# 		has_trait = "leader_trait_expertise_field_manipulation"
+		# 	}
+		# }
 	}
 }
 
@@ -475,13 +475,13 @@ tech_acemod_crisis_extradimensional_ai_empire_1 = {
 				}
 			}
 		}
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = engineering
-				has_trait = "leader_trait_expertise_voidcraft"
-			}
-		}
+		# modifier = {
+		# 	factor = 1.25
+		# 	research_leader = {
+		# 		area = engineering
+		# 		has_trait = "leader_trait_expertise_voidcraft"
+		# 	}
+		# }
 	}
 	ai_weight = {
 		weight = @acemod_ai_weight_priority
@@ -491,13 +491,13 @@ tech_acemod_crisis_extradimensional_ai_empire_1 = {
 				has_global_flag = ai_invasion_happened
 			}
 		}
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = engineering
-				has_trait = "leader_trait_expertise_voidcraft"
-			}
-		}
+		# modifier = {
+		# 	factor = 1.25
+		# 	research_leader = {
+		# 		area = engineering
+		# 		has_trait = "leader_trait_expertise_voidcraft"
+		# 	}
+		# }
 	}
 }
 
@@ -544,13 +544,13 @@ tech_acemod_crisis_extradimensional_ai_empire_2 = {
 				}
 			}
 		}
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = engineering
-				has_trait = "leader_trait_expertise_voidcraft"
-			}
-		}
+		# modifier = {
+		# 	factor = 1.25
+		# 	research_leader = {
+		# 		area = engineering
+		# 		has_trait = "leader_trait_expertise_voidcraft"
+		# 	}
+		# }
 	}
 	ai_weight = {
 		weight = @acemod_ai_weight_priority
@@ -560,13 +560,13 @@ tech_acemod_crisis_extradimensional_ai_empire_2 = {
 				has_global_flag = ai_invasion_happened
 			}
 		}
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = engineering
-				has_trait = "leader_trait_expertise_voidcraft"
-			}
-		}
+		# modifier = {
+		# 	factor = 1.25
+		# 	research_leader = {
+		# 		area = engineering
+		# 		has_trait = "leader_trait_expertise_voidcraft"
+		# 	}
+		# }
 	}
 }
 
@@ -613,13 +613,13 @@ tech_acemod_crisis_extradimensional_ai_empire_3 = {
 				}
 			}
 		}
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = engineering
-				has_trait = "leader_trait_expertise_voidcraft"
-			}
-		}
+		# modifier = {
+		# 	factor = 1.25
+		# 	research_leader = {
+		# 		area = engineering
+		# 		has_trait = "leader_trait_expertise_voidcraft"
+		# 	}
+		# }
 	}
 	ai_weight = {
 		weight = @acemod_ai_weight_priority
@@ -629,13 +629,13 @@ tech_acemod_crisis_extradimensional_ai_empire_3 = {
 				has_global_flag = ai_invasion_happened
 			}
 		}
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = engineering
-				has_trait = "leader_trait_expertise_voidcraft"
-			}
-		}
+		# modifier = {
+		# 	factor = 1.25
+		# 	research_leader = {
+		# 		area = engineering
+		# 		has_trait = "leader_trait_expertise_voidcraft"
+		# 	}
+		# }
 	}
 }
 
@@ -687,13 +687,13 @@ tech_acemod_crisis_goo = {
 				}
 			}
 		}
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = engineering
-				has_trait = "leader_trait_expertise_materials"
-			}
-		}
+		# modifier = {
+		# 	factor = 1.25
+		# 	research_leader = {
+		# 		area = engineering
+		# 		has_trait = "leader_trait_expertise_materials"
+		# 	}
+		# }
 	}
 	ai_weight = {
 		weight = @acemod_ai_weight_priority
@@ -703,13 +703,13 @@ tech_acemod_crisis_goo = {
 				has_global_flag = lgates_activated_globally
 			}
 		}
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = engineering
-				has_trait = "leader_trait_expertise_materials"
-			}
-		}
+		# modifier = {
+		# 	factor = 1.25
+		# 	research_leader = {
+		# 		area = engineering
+		# 		has_trait = "leader_trait_expertise_materials"
+		# 	}
+		# }
 	}
 }
 
@@ -818,22 +818,22 @@ tech_acemod_crisis_fe = {
 				value = 1
 			}
 		}
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = physics
-				has_trait = "leader_trait_expertise_particles"
-			}
-		}
+		# modifier = {
+		# 	factor = 1.25
+		# 	research_leader = {
+		# 		area = physics
+		# 		has_trait = "leader_trait_expertise_particles"
+		# 	}
+		# }
 	}
-	ai_weight = {
-		weight = @acemod_ai_weight_priority
-		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = physics
-				has_trait = "leader_trait_expertise_particles"
-			}
-		}
-	}
+	# ai_weight = {
+	# 	weight = @acemod_ai_weight_priority
+	# 	modifier = {
+	# 		factor = 1.25
+	# 		research_leader = {
+	# 			area = physics
+	# 			has_trait = "leader_trait_expertise_particles"
+	# 		}
+	# 	}
+	# }
 }

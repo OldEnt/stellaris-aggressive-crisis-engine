@@ -531,6 +531,24 @@ defined_text = {
 	name = GetName_acemod_acemod_crisis_manager_dlc_check_host_toxoids
 	text = {
 		trigger = {
+			host_has_dlc = "First Contact Story Pack"
+		}
+		localization_key = acemod_crisis_manager_trigger_pass
+	}
+	text = {
+		trigger = {
+			NOT = {
+				host_has_dlc = "First Contact Story Pack"
+			}
+		}
+		localization_key = acemod_crisis_manager_trigger_fail
+	}
+}
+
+defined_text = {
+	name = GetName_acemod_acemod_crisis_manager_dlc_check_host_first_contact
+	text = {
+		trigger = {
 			host_has_dlc = "Toxoids Species Pack"
 		}
 		localization_key = acemod_crisis_manager_trigger_pass
@@ -539,6 +557,42 @@ defined_text = {
 		trigger = {
 			NOT = {
 				host_has_dlc = "Toxoids Species Pack"
+			}
+		}
+		localization_key = acemod_crisis_manager_trigger_fail
+	}
+}
+
+defined_text = {
+	name = GetName_acemod_acemod_crisis_manager_dlc_check_host_galactic_paragons
+	text = {
+		trigger = {
+			host_has_dlc = "Galactic Paragons"
+		}
+		localization_key = acemod_crisis_manager_trigger_pass
+	}
+	text = {
+		trigger = {
+			NOT = {
+				host_has_dlc = "Galactic Paragons"
+			}
+		}
+		localization_key = acemod_crisis_manager_trigger_fail
+	}
+}
+
+defined_text = {
+	name = GetName_acemod_acemod_crisis_manager_dlc_check_host_astral_planes
+	text = {
+		trigger = {
+			host_has_dlc = "Astral Planes"
+		}
+		localization_key = acemod_crisis_manager_trigger_pass
+	}
+	text = {
+		trigger = {
+			NOT = {
+				host_has_dlc = "Astral Planes"
 			}
 		}
 		localization_key = acemod_crisis_manager_trigger_fail

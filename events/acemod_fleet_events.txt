@@ -6900,6 +6900,17 @@ event = {
 			}
 			if = {
 				limit = {
+					NOT = {
+						is_variable_set = acemod_var_country_num_colossus_spawned
+					}
+				}
+				set_variable = {
+					which = acemod_var_country_num_colossus_spawned
+					value = 0
+				}
+			}
+			if = {
+				limit = {
 					check_variable = {
 						which = acemod_var_country_colossus_spawn_limit
 						value > acemod_var_country_num_colossus_spawned

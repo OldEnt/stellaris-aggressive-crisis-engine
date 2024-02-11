@@ -63,28 +63,56 @@ acemod_sfex_jumpdrive_order_can_jump_drive_scripted_trigger = {
 			}
 		}
 	}
-	# Ancient Empire
+	NOT = {
+		merg_has_assault_lily = yes
+		solar_system = {
+			exists = starbase
+			starbase = {
+				has_starbase_building = AL_AntiFTL
+				owner = { is_hostile = prevprev.owner }
+			}
+		}
+	}
+	# # Ancient Empire
 	# custom_tooltip = {
-	# fail_text = ag_jump_drive_unable_system_tooltip
-	# NOT = {
-	# 	solar_system = {
-	# 		has_star_flag = ag_no_jump_out_system
+	# 	fail_text = ag_jump_drive_unable_system_tooltip
+	# 	NOT = { solar_system = { has_star_flag = ag_no_jump_out_system } }
+	# }
+	# # Assault Lily
+	# custom_tooltip = {
+	# 	fail_text = AL_cannot_start_jump
+	# 	OR = {
+	# 		merg_has_assault_lily = no
+	# 		AND = {
+	# 			merg_has_assault_lily = yes
+	# 			exists = solar_system
+	# 			NOT = {
+	# 				solar_system = {
+	# 					exists = starbase
+	# 					starbase = {
+	# 						has_starbase_building = AL_AntiFTL
+	# 						owner = { is_hostile = prevprevprev.owner }
+	# 					}
+	# 				}
+	# 			}
+	# 		}
 	# 	}
 	# }
-	# }
-	# Some Events of Outside Cluster
+	# # Some Events of Outside Cluster
 	# if = {
-	# 	limit = { 
+	# 	limit = {
+	# 		merg_has_seooc = yes
 	# 		exists = solar_system
-	# 		solar_system = { has_star_flag = nep_Scrus_cluster } 
+	# 		solar_system = { has_star_flag = nep_Scrus_cluster }
 	# 	}
-	# custom_tooltip = {
-	# text = "CAN_NOT_JUMP_WHEN_IN_SCRUS"
+	# 	custom_tooltip = {
+	# 		text = "CAN_NOT_JUMP_WHEN_IN_SCRUS"
 	# 		always = no
 	# 	}
 	# }
 	# else_if = {
 	# 	limit = {
+	# 		merg_has_seooc = yes
 	# 		exists = solar_system
 	# 		solar_system = {
 	# 			OR = {
@@ -93,20 +121,14 @@ acemod_sfex_jumpdrive_order_can_jump_drive_scripted_trigger = {
 	# 				has_star_flag = nep_whitegoo_3
 	# 			}
 	# 		}
-	# 		owner = {
-	# 			NOT = {
-	# 				has_technology = tech_nep_whitegoo_3_2
-	# 			}
-	# 		}
+	# 		owner = { NOT = { has_technology = tech_nep_whitegoo_3_2 } }
 	# 	}
 	# 	custom_tooltip = {
-	# 		# text = "CAN_NOT_JUMP_IN_WHITEGOO"
+	# 		text = "CAN_NOT_JUMP_IN_WHITEGOO"
 	# 		always = no
 	# 	}
 	# }
-	# else = {
-	# 	always = yes
-	# }
+	# else = { always = yes }
 }
 
 # prev.owner acemod_sfex fleet
@@ -120,65 +142,105 @@ acemod_sfex_jumpdrive_order_can_enter_system_by_jump_scripted_trigger = {
 	# Sealed system
 	solar_system = {
 		OR = {
-			NOT = {
-				has_star_flag = sealed_system
+			prev.owner = {
+				OR = {
+					# Core Framework & Modmenu
+					has_country_flag = z_fw_r_celestial_orrey_activited
+					has_country_flag = z_fw_r_cheat_quantum_beacon_activited
+				}
 			}
 			AND = {
-				prev.owner = {
-					has_country_flag = entered_sealed_system
+				# Sealed system
+				OR = {
+					NOT = { has_star_flag = sealed_system }
+					AND = {
+						prev.owner = { has_country_flag = entered_sealed_system }
+						has_star_flag = sealed_system
+					}
 				}
-				has_star_flag = sealed_system
+				OR = {
+					# Clusters and forbidden systems
+					NOR = {
+						has_star_flag = lcluster
+						# Formless system
+						has_star_flag = formless_system
+						# ACOT
+						has_star_flag = outercluster
+						# Ancient Empire
+						has_star_flag = ag_no_jump_in_system
+						# Assault Lily
+						has_star_flag = al_huge_home_bed
+						# BlueArchive
+						has_star_flag = BA_FE_SYS
+						# Gigastructural Engineering and More
+						has_star_flag = ehof_compound_system
+						has_star_flag = giga_core_03
+						cohesive_system = yes
+						urmazin_system = yes
+						everchanging_system = yes
+						katzen_jump_blocked_system = yes
+						has_star_flag = maginot_anti_jump_star
+						has_star_flag = siegfried_anti_jump_star
+						# Origin Beings
+						has_star_flag = darhmod_seres_home_system
+						has_star_flag = sealed_seres_system
+						has_star_flag = seres_lcluster_spawned
+						has_star_flag = ftl_spawned
+						has_star_flag = su_lu_station_system
+						has_star_flag = su_spawned
+						has_star_flag = god_route_seres_star
+						AND = {
+							merg_has_origin_beings = yes
+							OR = {
+								has_star_flag = vultaumar
+								has_star_flag = yuhtaan
+								has_star_flag = fen_habbanis
+								has_star_flag = irass
+								has_star_flag = cybrex
+								has_star_flag = last_baol_system
+								has_star_flag = Zrocursor
+							}
+						}
+						# Some Events of Outside Cluster
+						has_star_flag = nep_Krahen_cluster
+						has_star_flag = nep_Scrus_cluster
+						AND = {
+							has_global_flag = nep_not_pass_Aemethms
+							OR = {
+								has_star_flag = nep_dragon_system
+								has_star_flag = nep_heptagram_cluster
+							}
+						}
+						has_star_flag = nep_arena
+						# SW:Kuat Ancient Empire
+						kuat_is_kuat_system = yes
+						has_star_flag = ag_kae_e_area_system
+						AND = {
+							has_global_flag = starkillerbase_not_passed
+							has_star_flag = starkiller_system
+						}
+						# Warship Girls R And MIST Species
+						has_star_flag = wg_sealed_system
+						has_star_flag = wg_psionic_systems
+					}
+					# Gigastructural Engineering and More
+					# This is gonna be a bit annoying, BUT it needs to be done for eager explorers
+					AND = {
+						cohesive_system = yes
+						prev.owner = { is_eager_explorer_empire = yes }
+						has_star_flag = ehof_system_created_by_@prev.owner
+					}
+				}
 			}
+			# Reworked Advanced Ascension
+			prev.owner = { has_country_flag = AAR_flg_cntr_JUMP_webway_TGT }
 		}
-		# Clusters
-		NOR = {
-			has_star_flag = lcluster
-			# Warship Girls R And MIST Species
-			has_star_flag = wg_sealed_system
-			has_star_flag = wg_psionic_systems
-			# Gigastructures
-			has_star_flag = ehof_compound_system
-			has_star_flag = giga_core_03
-			has_star_flag = maginot_anti_jump_star
-			AND = {
-				has_global_flag = gigastructures_enabled
-				OR = {
-					cohesive_system = yes
-					urmazin_system = yes
-					everchanging_system = yes
-					katzen_jump_blocked_system = yes
-				}
-			}
-			# Ancient Empire
-			has_star_flag = ag_no_jump_in_system
-			# SW:Kuat Ancient Empire
-			has_star_flag = Kuat_system
-			has_star_flag = Kuat_system_1
-			has_star_flag = Kuat_system_2
-			has_star_flag = Kuat_system_3
-			has_star_flag = kuat_initial_system
-			has_star_flag = Kuat_system_int
-			has_star_flag = Kuat_system_int_1
-			has_star_flag = Kuat_system_int_2
-			has_star_flag = Kuat_system_int_3
-			has_star_flag = Kuat_system_int_4
-			AND = {
-				has_global_flag = starkillerbase_not_passed
-				has_star_flag = starkiller_system
-			}
-			# ACOT
-			has_star_flag = outercluster
-			# Some Events of Outside Cluster
-			has_star_flag = nep_Krahen_cluster
-			has_star_flag = nep_Scrus_cluster
-			AND = {
-				has_global_flag = nep_not_pass_Aemethms
-				OR = {
-					has_star_flag = nep_dragon_system
-					has_star_flag = nep_heptagram_cluster
-				}
+		NAND = {
+			has_global_flag = ongoing_space_storm
+			OR = {
+				has_star_flag = scluster
+				has_star_flag = scluster_entrance
 			}
 		}
 	}
-	# }
 }

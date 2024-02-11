@@ -23,3 +23,21 @@ katzen_jump_blocked_system = {
 	# Dummy SFEX scripted_trigger. ALLOW OVERWRITE.
 	always = no
 }
+
+kuat_is_kuat_system = {
+	optimize_memory
+	# Dummy SFEX scripted_trigger. ALLOW OVERWRITE.
+	always = no
+}
+
+merg_has_origin_beings = {
+	optimize_memory
+	# Dummy SFEX scripted_trigger. ALLOW OVERWRITE.
+	always = no
+}
+
+merg_has_assault_lily = {
+	optimize_memory
+	# Dummy SFEX scripted_trigger. ALLOW OVERWRITE.
+	always = no
+}

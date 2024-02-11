@@ -149,6 +149,12 @@ acemod_sfex_jumpdrive_order_set_location = {
 	optimize_memory
 	if = {
 		limit = {
+			is_variable_set = acemod_sfex_jumpdrive_order_var_system_radius
+		}
+		ceiling_variable = acemod_sfex_jumpdrive_order_var_system_radius
+	}
+	if = {
+		limit = {
 			check_variable = {
 				which = acemod_sfex_jumpdrive_order_var_system_radius
 				value = 0

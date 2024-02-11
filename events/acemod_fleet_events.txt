@@ -4579,6 +4579,11 @@ fleet_event = {
 								NOT = {
 									is_controlled_by = root.owner
 								}
+								# Crisis worlds cannot (legally) and shouldn't (to avoid the bug) be invaded.
+								NOR = {
+									is_planet_class = pc_infested
+									is_planet_class = pc_ai
+								}
 								NOT = {
 									has_planet_flag = acemod_planet_flag_army_target_ignore
 								}

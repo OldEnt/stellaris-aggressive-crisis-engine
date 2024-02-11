@@ -15,7 +15,7 @@ planet_is_hostile_or_crisis = {
 			}
 			# Safety Off
 			AND = {
-				has_safety_off = yes
+				merg_has_safety_off = yes
 				is_same_value = from.owner
 			}
 		}

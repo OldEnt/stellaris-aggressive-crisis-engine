@@ -256,7 +256,7 @@ country_event = {
 					random_list = {
 						25 = {
 							create_leader = {
-								class = admiral
+								class = commander
 								species = event_target:extradimensional_hunters_species
 								name = random
 								skill = 3
@@ -267,7 +267,7 @@ country_event = {
 						}
 						25 = {
 							create_leader = {
-								class = admiral
+								class = commander
 								species = event_target:extradimensional_hunters_species
 								name = random
 								skill = 3
@@ -278,7 +278,7 @@ country_event = {
 						}
 						50 = {
 							create_leader = {
-								class = admiral
+								class = commander
 								species = event_target:extradimensional_hunters_species
 								name = random
 								skill = 3

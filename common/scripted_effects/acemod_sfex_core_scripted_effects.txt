@@ -17,7 +17,7 @@ acemod_sfex_core_create_global_country_if_needed = {
 		event_target:global_event_country = {
 			save_global_event_target_as = acemod_sfex_core_global_country			# For better savegame compatibility.
 			create_leader = {
-				class = general
+				class = commander
 				name = acemod_sfex_name_register
 				species = event_target:acemod_sfex_core_global_species
 				immortal = yes
@@ -37,7 +37,7 @@ acemod_sfex_core_create_global_country_if_needed = {
 		# }
 		# last_created_country = {
 		# 	create_leader = {
-		# 		class = general
+		# 		class = commander
 		# 		name = acemod_sfex_name_register
 		# 		species = event_target:acemod_sfex_core_global_species
 		# 		immortal = yes
@@ -65,7 +65,7 @@ acemod_sfex_core_register_name = {
 				}
 			}
 			create_leader = {
-				class = general
+				class = commander
 				name = $NAME$
 				species = event_target:acemod_sfex_core_global_species
 				immortal = yes
@@ -126,7 +126,7 @@ acemod_sfex_set_fleet_order = {
 				}
 			}
 			create_leader = {
-				class = general
+				class = commander
 				name = random
 				species = event_target:acemod_sfex_core_global_species
 				immortal = yes
@@ -216,7 +216,7 @@ acemod_sfex_set_fleet_order = {
 					}
 				}
 				create_leader = {
-					class = general
+					class = commander
 					name = "$BUILD_STRUCTURE$"
 					species = event_target:acemod_sfex_core_global_species
 					immortal = yes
@@ -624,7 +624,7 @@ acemod_sfex_set_fleet_order = {
 			# 					}
 			# 				}
 			# 				create_leader = {
-			# 					class = general
+			# 					class = commander
 			# 					name = "$BUILD_STRUCTURE$"
 			# 					species = event_target:acemod_sfex_core_global_species
 			# 					immortal = yes

@@ -33,7 +33,7 @@ event = {
 					}
 				}
 				create_leader = {
-					class = general
+					class = commander
 					name = random
 					species = event_target:acemod_sfex_core_global_species
 					immortal = yes

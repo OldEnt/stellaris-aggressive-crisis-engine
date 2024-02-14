@@ -4148,3 +4148,21 @@ defined_text = {
 		localization_key = acemod_crisis_manager_trigger_no
 	}
 }
+
+defined_text = {
+	name = GetName_acemod_crisis_manager_emergency_disengagement_hotfix_disabled_reverse
+	text = {
+		trigger = {
+			NOT = {
+				has_global_flag = acemod_global_flag_emergency_disengagement_hotfix_disabled
+			}
+		}
+		localization_key = acemod_crisis_manager_trigger_yes
+	}
+	text = {
+		trigger = {
+			has_global_flag = acemod_global_flag_emergency_disengagement_hotfix_disabled
+		}
+		localization_key = acemod_crisis_manager_trigger_no
+	}
+}

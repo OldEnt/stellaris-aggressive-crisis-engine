@@ -186,6 +186,8 @@
  acemod_crisis_manager.11.a.tooltip: "Minor tweaks specific for $acemod_crisis_manager_name_acot_override$, like first §H$extradimensional_invasion_chain_2_title$§! $FLEET$ receiving big capital ship instead of one $large_ship_ed$."
  acemod_crisis_manager.11.b: "$acemod_crisis_manager_name_acg$ additional support - [global_event_country.GetName_acemod_crisis_manager_acg_support_disabled_reverse]"
  acemod_crisis_manager.11.b.tooltip: "Support for $acemod_crisis_manager_name_acg$ overhaul. Technologies and debuffs cannot be enabled unless support is switched off."
+ acemod_crisis_manager.11.c: "$FLEET_COMBAT$ $EMERGENCY_JUMP$ $SPECIAL_PROJECT_STATUS_DISABLED$ - [global_event_country.GetName_acemod_crisis_manager_emergency_disengagement_hotfix_disabled_reverse]"
+ acemod_crisis_manager.11.c.tooltip: "$name_list_Prethoryn$, $CRISIS_TYPE_CONTINGENCY$, $name_list_Extradimensional$, $graygoo.10.name$ $AND$ $gov_marauder_khanate$ $COUNTRY_MODIFIER$:\n£mod_ship_disengage_chance_mult£ $FLEET_COMBAT$ $EMERGENCY_JUMP$ $SPECIAL_PROJECT_STATUS_DISABLED$\n\nDefault: §R$EMERGENCY_JUMP$ $SPECIAL_PROJECT_STATUS_DISABLED$§!\nVanilla: §Y$AI_FLEET_MISSION_UNKNOWN$§!\n\n$acemod_lib_menu_can_disable$"
 
 # Debugging tools menu------------------------------------
  acemod_crisis_manager.10.name: "§E$acemod_crisis_manager_name$: §!$acemod_crisis_manager.1.y$"

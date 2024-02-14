@@ -132,3 +132,20 @@ acemod_lib_army_strength_modifier_25 = {
 	army_damage_mult = 11.9
 	army_health = 11.9
 }
+
+acemod_lib_ship_disengage_chance_mult = {
+	icon = "gfx/interface/icons/modifiers/mod_ship_disengage_chance_mult.dds"
+	ship_disengage_chance_mult = 1
+}
+
+acemod_lib_ship_disengage_chance_reduction = {
+	icon = "gfx/interface/icons/modifiers/mod_ship_disengage_chance_reduction.dds"
+	# ship_disengage_chance_mult = 0
+	ship_disengage_chance_reduction = 1
+}
+
+acemod_lib_ship_disengage_opportunities_add = {
+	icon = "gfx/interface/icons/modifiers/mod_ship_disengage_opportunities_add.dds"
+	# ship_disengage_chance_mult = 0
+	ship_disengage_opportunities_add = 1
+}

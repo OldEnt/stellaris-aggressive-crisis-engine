@@ -166,6 +166,8 @@
   acemod_crisis_manager.11.a.tooltip: "Minimalne zmiany specyficzne dla $acemod_crisis_manager_name_acot_override$, dla przykładu §H$extradimensional_invasion_chain_2_title$§! otrzymują większy statek flagowy dla flot."
   acemod_crisis_manager.11.b: "$acemod_crisis_manager_name_acg$ dodatkowe wsparcie - [global_event_country.GetName_acemod_crisis_manager_acg_support_disabled_reverse]"
   acemod_crisis_manager.11.b.tooltip: "Wsparcie dla $acemod_crisis_manager_name_acg$. Technologie i debuffy ACE nie mogą być włączone bez wcześniejszego wyłączenia wsparcia."
+  acemod_crisis_manager.11.c: "$FLEET_COMBAT$ $EMERGENCY_JUMP$ $SPECIAL_PROJECT_STATUS_DISABLED$ - [global_event_country.GetName_acemod_crisis_manager_emergency_disengagement_hotfix_disabled_reverse]"
+  acemod_crisis_manager.11.c.tooltip: "$name_list_Prethoryn$, $CRISIS_TYPE_CONTINGENCY$, $name_list_Extradimensional$, $graygoo.10.name$ $AND$ $gov_marauder_khanate$ $COUNTRY_MODIFIER$:\n£mod_ship_disengage_chance_mult£ $FLEET_COMBAT$ $EMERGENCY_JUMP$ $SPECIAL_PROJECT_STATUS_DISABLED$\n\nDefault: §R$EMERGENCY_JUMP$ $SPECIAL_PROJECT_STATUS_DISABLED$§!\nVanilla: §Y$AI_FLEET_MISSION_UNKNOWN$§!\n\n$acemod_lib_menu_can_disable$"
   #Debugging tools menu------------------------------------
   acemod_crisis_manager.10.name: "§E$acemod_crisis_manager_name$: §!$acemod_crisis_manager.1.y$"
   acemod_crisis_manager.10.desc: "Dane debugowania są zapisywane w global_event country jako flagi globalne.\n\nPodczas raportowania problemu prześlij proszę zrzut ekranu wszystkich okien debugowania."

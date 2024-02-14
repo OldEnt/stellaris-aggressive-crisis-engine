@@ -166,6 +166,8 @@
   acemod_crisis_manager.11.a.tooltip: "Pequeños ajustes para $acemod_crisis_manager_name_acot_override$, como el primer §H$extradimensional_invasion_chain_2_title$§! $FLEET$ recibiendo naves capitales en lugar de una $large_ship_ed$."
   acemod_crisis_manager.11.b: "$acemod_crisis_manager_name_acg$ soporte adicional - [global_event_country.GetName_acemod_crisis_manager_acg_support_disabled_reverse]"
   acemod_crisis_manager.11.b.tooltip: "Soporte para el overhaul de $acemod_crisis_manager_name_acg$. Las tecnologías y los perjuicios no pueden ser activados a no ser que el soporte este desactivado."
+  acemod_crisis_manager.11.c: "$FLEET_COMBAT$ $EMERGENCY_JUMP$ $SPECIAL_PROJECT_STATUS_DISABLED$ - [global_event_country.GetName_acemod_crisis_manager_emergency_disengagement_hotfix_disabled_reverse]"
+  acemod_crisis_manager.11.c.tooltip: "$name_list_Prethoryn$, $CRISIS_TYPE_CONTINGENCY$, $name_list_Extradimensional$, $graygoo.10.name$ $AND$ $gov_marauder_khanate$ $COUNTRY_MODIFIER$:\n£mod_ship_disengage_chance_mult£ $FLEET_COMBAT$ $EMERGENCY_JUMP$ $SPECIAL_PROJECT_STATUS_DISABLED$\n\nDefault: §R$EMERGENCY_JUMP$ $SPECIAL_PROJECT_STATUS_DISABLED$§!\nVanilla: §Y$AI_FLEET_MISSION_UNKNOWN$§!\n\n$acemod_lib_menu_can_disable$"
   #Debugging tools menu------------------------------------
   acemod_crisis_manager.10.name: "§E$acemod_crisis_manager_name$: §!$acemod_crisis_manager.1.y$"
   acemod_crisis_manager.10.desc: "Los datos de Depuración se almacenan en el imperio de global_event y como flags de dicho imperio.\n\nProporciona una captura de pantalla de la ventana de Depuración o un guardado cuando informes de un problema, por favor."

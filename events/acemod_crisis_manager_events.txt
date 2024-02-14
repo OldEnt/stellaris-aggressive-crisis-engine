@@ -1597,6 +1597,84 @@ country_event = {
 		}
 	}
 	option = {
+		name = acemod_crisis_manager.11.c
+		custom_tooltip = acemod_crisis_manager.11.c.tooltip
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_global_flag = acemod_global_flag_emergency_disengagement_hotfix_disabled
+					}
+				}
+				set_global_flag = acemod_global_flag_emergency_disengagement_hotfix_disabled
+				every_country = {
+					limit = {
+						OR = {
+							has_country_flag = acemod_country_flag_emergency_disengagement_hotfix_enabled
+							is_country_type = swarm
+							is_country_type = extradimensional
+							is_country_type = extradimensional_2
+							is_country_type = extradimensional_3
+							is_country_type = ai_empire
+							is_country_type = gray
+							is_country_type = gray_goo							# A Deadly Tempest mod.
+							is_country_type = awakened_marauders
+						}
+					}
+					# remove_modifier = acemod_lib_ship_disengage_chance_mult
+					remove_modifier = acemod_lib_ship_disengage_chance_reduction
+					remove_modifier = acemod_lib_ship_disengage_opportunities_add
+				}
+				country_event = {
+					id = acemod_crisis_manager.11
+					days = 0
+					random = 0
+				}
+				break = yes
+			}
+			else = {
+				remove_global_flag = acemod_global_flag_emergency_disengagement_hotfix_disabled				# Fix crisis country_types using emergency disengagement.
+				every_country = {
+					limit = {
+						OR = {
+							has_country_flag = acemod_country_flag_emergency_disengagement_hotfix_enabled
+							is_country_type = swarm
+							is_country_type = extradimensional
+							is_country_type = extradimensional_2
+							is_country_type = extradimensional_3
+							is_country_type = ai_empire
+							is_country_type = gray
+							is_country_type = gray_goo							# A Deadly Tempest mod.
+							is_country_type = awakened_marauders
+						}
+						NOR = {
+							has_modifier = acemod_ship_disengage_modifier
+							has_country_flag = acemod_country_flag_emergency_disengagement_hotfix_disabled
+						}
+					}
+					# add_modifier = {
+					# 	modifier = acemod_lib_ship_disengage_chance_mult
+					# 	mult = 0
+					# }
+					add_modifier = {
+						modifier = acemod_lib_ship_disengage_chance_reduction
+						mult = 1000
+					}
+					add_modifier = {
+						modifier = acemod_lib_ship_disengage_opportunities_add
+						mult = -100
+					}
+				}
+				country_event = {
+					id = acemod_crisis_manager.11
+					days = 0
+					random = 0
+				}
+				break = yes
+			}
+		}
+	}
+	option = {
 		name = acemod_crisis_manager.11.z
 		custom_tooltip = acemod_crisis_manager.11.z.tooltip
 		hidden_effect = {

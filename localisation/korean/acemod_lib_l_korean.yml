@@ -27,3 +27,6 @@ l_korean:
  acemod_lib_army_strength_modifier_5: "$ARMY_POWER_HEADER$ $MODIFIER$ - §G5x§!"
  acemod_lib_army_strength_modifier_10: "$ARMY_POWER_HEADER$ $MODIFIER$ - §G10x§!"
  acemod_lib_army_strength_modifier_25: "$ARMY_POWER_HEADER$ $MODIFIER$ - §G25x"
+ acemod_lib_ship_disengage_chance_mult: "$MOD_SHIP_DISENGAGE_CHANCE_MULT$"
+ acemod_lib_ship_disengage_chance_reduction: "$MOD_SHIP_DISENGAGE_CHANCE_REDUCTION$"
+ acemod_lib_ship_disengage_opportunities_add: "$MOD_SHIP_DISENGAGE_OPPORTUNITIES_ADD$"

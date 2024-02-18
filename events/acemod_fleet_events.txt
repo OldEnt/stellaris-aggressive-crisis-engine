@@ -115,7 +115,7 @@ event = {
 				}
 				NOR = {
 					has_country_flag = acemod_assisted_ai
-					has_country_flag = acemod_neural_assisted_ai
+					has_country_flag = acemod_neural_country_flag_assisted_ai
 				}
 				NOT = {
 					check_variable = {

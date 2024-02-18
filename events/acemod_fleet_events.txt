@@ -113,8 +113,9 @@ event = {
 					is_country_type = extradimensional_3
 					is_country_type = ai_empire
 				}
-				NOT = {
+				NOR = {
 					has_country_flag = acemod_assisted_ai
+					has_country_flag = acemod_neural_assisted_ai
 				}
 				NOT = {
 					check_variable = {

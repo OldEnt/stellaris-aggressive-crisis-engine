@@ -436,8 +436,11 @@ event = {
 					is_country_type = awakened_marauders
 				}
 				NOR = {
-					has_modifier = acemod_ship_disengage_modifier
 					has_country_flag = acemod_country_flag_emergency_disengagement_hotfix_disabled
+					AND = {
+						has_modifier = acemod_lib_ship_disengage_chance_reduction
+						has_modifier = acemod_lib_ship_disengage_opportunities_add
+					}
 				}
 			}
 			# add_modifier = {

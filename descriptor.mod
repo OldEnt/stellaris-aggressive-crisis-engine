@@ -8,5 +8,5 @@ tags={
 }
 name="Aggressive Crisis Engine"
 picture="thumbnail.png"
-supported_version="v3.13.*"
+supported_version="v3.14.*"
 remote_file_id="2268189539"
